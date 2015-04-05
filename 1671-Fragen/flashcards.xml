@@ -1,0 +1,4540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flashcards>
+	<flashcard>
+		<card_id>106</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist das Konzept eines Datenbanksystem? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine Datenbank ist eine &lt;b&gt;integrierte Ansammlung von Daten&lt;/b&gt;, die 
+      allen Benutzern eines Anwendungsbereichs als &lt;b&gt;gemeinsame Basis 
+      aktueller Informationen &lt;/b&gt;dient. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Integriert bedeutet: &lt;/b&gt;die Daten sind gem&amp;#228;&amp;#223; den nat&amp;#252;rlichen 
+      Zusammenh&amp;#228;ngen in der Anwendungswelt strukturiert, nicht danach, wie 
+      einzelne Anwendungen sie ben&amp;#246;tigen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Gemeinsame Basis bedeutet: &lt;/b&gt;die Daten k&amp;#246;nnen von mehreren 
+      Benutzern eingesehen und modifiziert werden, dabei sorgt das 
+      Datenbanksystem f&amp;#252;r die Synchronisation der Zugriffe.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>107</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist DBMS, DB, DBS, Sicht?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      .) Das &lt;b&gt;DBMS (Datenbankmanagementsystem)&lt;/b&gt; dient der Kontrolle der 
+      Datenbank. Es ist ein Softwaresystem, das es erm&amp;#246;glicht, eine Datenbank 
+      zu definieren, Daten zu speichern, zu ver&amp;#228;ndern und zu l&amp;#246;schen, sowie 
+      Anfragen an die Datenbank zu stellen. Es isoliert die Datenbank von den 
+      Anwendungsprogrammen und sorgt daf&amp;#252;r, dass der Benutzer die Details der 
+      Datenbank nicht kennen muss.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      .) &lt;b&gt;DB&lt;/b&gt; ist die Datenbank selbst.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      .) DBMS und DB bilden zusammen das&lt;b&gt; Datenbanksystem (DBS)&lt;/b&gt;.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      .) Datenbanken erm&amp;#246;glichen, dass jeder Benutzer einen individuellen 
+      Ausschnitt der in der Datenbank gespeicherten Daten erh&amp;#228;lt, so wie er 
+      ihn ben&amp;#246;tigt. Diesen Ausschnitt nennt man &lt;b&gt;Sicht&lt;/b&gt;.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>108</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Zu welchen Schwierigkeiten kann die Datenverwaltung &amp;#252;ber Dateisysteme 
+      f&amp;#252;hren?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Schwierigkeiten:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.) &lt;b&gt;Redundanz:&lt;/b&gt; Da die Daten jeweils speziell f&amp;#252;r bestimmte 
+      Anwendungen entworfen werdne, werden dieselben Daten in 
+      unterschiedlichen Dateien mehrfach eingetragen. Dies f&amp;#252;hrt zu 
+      Speicherverschwendung und erh&amp;#246;htem &amp;#196;nderungsaufwand. Da die Redundanz 
+      i.d.R. nicht zentral kontrolliert wird, kommt es zu Inkonsistenzen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.) &lt;b&gt;Inkonsistenz:&lt;/b&gt; Wird ein Wert ge&amp;#228;ndert, muss diese bei allen 
+      anderen Dateien, in denen er gespeichert ist, ebenfalls ge&amp;#228;ndert werden, 
+      bevor der n&amp;#228;chste Lese- oder Schreibzugriff erfolgt. Dies kann bei 
+      traditionellen Dateisystemen meist nicht gew&amp;#228;hrleistet werden.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.) &lt;b&gt;Daten-Programm-Abh&amp;#228;ngigkeit:&lt;/b&gt; &amp;#196;ndert sich der Aufbau 
+      einer Datei oder ihrer Organisationsform, so m&amp;#252;ssen alle darauf 
+      basierenden Programme ge&amp;#228;ndert werden. Wird z.b. ein weiteres 
+      Datenelement in einen Satztyp aufgenommen, so m&amp;#252;ssen alle Programme, die 
+      diese Datei verwenden, abge&amp;#228;ndert werden, unabh&amp;#228;ngig davon, ob sie 
+      dieses neue Datenelement sehen oder nicht.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      4.) &lt;b&gt;Inflexibilit&amp;#228;t:&lt;/b&gt; Da die Daten nicht in ihrer Gesamtheit, 
+      sondern nur anwendungsbezogen gesehen werden, ist es in vielen F&amp;#228;llen 
+      sehr kompliziert, neue Anwendungen oder Auswertungen vorhandener Daten 
+      zu realisieren. Dies gilt insbesondere f&amp;#252;r Auswertungen, die Daten aus 
+      verschiedenen Dateien ben&amp;#246;tigen w&amp;#252;rden. Die Organisation nach diesem 
+      konventionellen Vorgehen ist sehr wenig anpassungsf&amp;#228;hig an die sich 
+      ver&amp;#228;ndernden Anforderungen in einem Unternehmen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>109</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Vorteile haben Datenbanken gegen&amp;#252;ber der klassischen 
+      Dateiverwaltung?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.) &lt;b&gt;Gemeinsame Datenbasis&lt;/b&gt; f&amp;#252;r alle Anwendungen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.) &lt;b&gt;Redundanz entf&amp;#228;llt&lt;/b&gt;; wo Redundanz n&amp;#252;tzlich ist, wird sie 
+      durch das DMBS kontrolliert
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.) wegen 2. &lt;b&gt;entfallen die Konsistenzprobleme&lt;/b&gt; traditioneller 
+      Dateiorganisationen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      4.) Die &lt;b&gt;Anwendungsprogrammierung wird vereinfacht&lt;/b&gt;, da der 
+      Programmierer nur die ihn interessierenden Eigenschaften der Daten, 
+      nicht aber deren spezielle Organisation auf den Speichern kennen muss
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      5.) Die &lt;b&gt;Abh&amp;#228;ngigkeit zwischen Programmen und Daten wird reduziert&lt;/b&gt;. 
+      Da das DBMS die Daten so abliefert, wie sie vom Anwendungsprogramm 
+      ben&amp;#246;tigt werden (Sicht), f&amp;#252;hren viele &amp;#196;nderungen in der 
+      Datenorganisation nicht zu &amp;#196;nderungen der Anwendungsprogramme.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      6.) Das Datenbanksystem verschafft &lt;b&gt;mehr Flexibilit&amp;#228;t f&amp;#252;r die 
+      Datenauswertung&lt;/b&gt;. Da alle Daten &amp;#252;ber den Anwendungsbereich 
+      zusammengefasst definiert und gespeichert sind, ist es wesentlich 
+      einfacher, neue Anwendungen zu programmieren oder ungeplante Anfragen zu 
+      beantworten.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      7.) Das Datenbanksystem kann zentral die &lt;b&gt;Korrektheit von Daten 
+      &amp;#252;berpr&amp;#252;fen&lt;/b&gt; (Pr&amp;#252;fprogramme etc.)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      8.) Das Datenbanksystem kann zentral &lt;b&gt;Mechanismen zur 
+      Wiederherstellung &lt;/b&gt;einer korrekten Datenbank nach dem Auftreten von 
+      Fehlern bereitstellen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>110</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      K&amp;#246;nnen Sie sich Probleme mit DBMS vorstellen? Situationen, in denen DBMS 
+      nicht sinnvoll sind?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Hoher &lt;b&gt;Betriebsmittelbedarf &lt;/b&gt;im Rechner, hohe &lt;b&gt;Kosten&lt;/b&gt;, 
+      Optimierung f&amp;#252;r &lt;b&gt;zeitkritische Anwendungen&lt;/b&gt; schwieriger 
+      (beispielsweise ganz kritisch: Realzeit-Anwendungen). 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Fazit: Datenbanksysteme sind sicher nicht (noch nicht?) f&amp;#252;r alle 
+      Probleme der Datenverwaltung sinnvoll.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>111</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist eine Datei? Was sind S&amp;#228;tze und Felder? Erkl&amp;#228;re die Begriffe 
+      Dateisystem und Schl&amp;#252;ssel!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine &lt;b&gt;Datei&lt;/b&gt; ist eine benannte Ansammlung von S&amp;#228;tzen eines oder 
+      mehrerer Satztypen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Grundelemente einer Datei sind der &lt;b&gt;Satz&lt;/b&gt; und das &lt;b&gt;Feld&lt;/b&gt;. 
+      S&amp;#228;tze sind die Zugriffs und Verarbeitungseinheiten der 
+      Anwendungsprogramme. Ein Satz ist eine Gruppierung von Datenelementen, 
+      auch Felder genannt. S&amp;#228;tze vom gleichen Typ werden in einer 
+      Satzbeschreibung deklariert, d.h. es wird festgehalten, aus welchen 
+      Datenelementen sich die S&amp;#228;tze dieses Typs aufbauen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ein &lt;b&gt;Dateisystem&lt;/b&gt; ist ein Softwarepaket, das den Zugriff auf 
+      einzelne S&amp;#228;tze in einer Datei besorgt, wenn das Anwendungsprogramm die 
+      entsprechenden Parameter liefert. &amp;#220;bliche Dateisysteme unterst&amp;#252;tzen nur 
+      den Zugriff &amp;#252;ber den &lt;b&gt;Schl&amp;#252;ssel eines Satzes&lt;/b&gt;, wobei der 
+      Schl&amp;#252;ssel eine von vornherein festgelegte Kombination von Feldern ist, 
+      deren Werte den Satz identifizieren. Der Schl&amp;#252;ssel f&amp;#252;r die 
+      Angestelltens&amp;#228;tze ist z.B. die Angestelltennummer. Ist der Schl&amp;#252;sselwert 
+      eines gesuchten Satzes nicht bekannt, so muss die ganze Datei durchsucht 
+      werden. Das Dateisystem unterst&amp;#252;tzt ferner das Anlegen, Modifizieren und 
+      L&amp;#246;schen von Dateien.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>112</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Erkl&amp;#228;ren Sie die drei Datenebenen eines DBMS!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.) &lt;b&gt;Logische Gesamtsicht:&lt;/b&gt; Die Beschreibung der Gesamtheit der 
+      Unternehmensdaten auf logischer Ebene in Form von Informationseinheiten 
+      und deren Beziehungen zueinander, unabh&amp;#228;ngig von der konkreten 
+      technischen Realisierung.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.)&lt;b&gt; Interne Sicht&lt;/b&gt;: Organisation der Daten auf den Speichern, 
+      sodass Zugriffsanforderungen der verschiedenen Benutzer m&amp;#246;glichst 
+      effizient erfolgen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.)&lt;b&gt; Externe Sicht&lt;/b&gt;: Darstellung der Daten f&amp;#252;r einen speziellen 
+      Benutzer, dieser sieht den f&amp;#252;r ihn relevanten Ausschnitt aus dem 
+      Gesamtdatenbestand in einer f&amp;#252;r ihn n&amp;#252;tzlichen Darstellung.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>113</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Erkl&amp;#228;ren Sie &amp;#252;berblicksweise die Drei-Schichten-Architektur von 
+      Datenbanksystemen und deren Zusammenhang mit den drei Datenebenen!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die Modelle der Datenwelt des Unternehmens werden mit Hilfe sogenannter &lt;b&gt;Datenbeschreibungssprachen&lt;/b&gt; 
+      in einer f&amp;#252;r das DBMS verst&amp;#228;ndlichen Form beschrieben, diese 
+      Beschreibung hei&amp;#223;t dann Schema.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die Sichten und Schemata h&amp;#228;ngen wie folgt zusammen: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;Externe Sichten - externe Schemata&lt;/i&gt;&lt;/b&gt;&lt;i&gt;
+&lt;/i&gt;    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;Logische Gesamtsicht - konzeptuelles Schema&lt;/i&gt;&lt;/b&gt;&lt;i&gt;
+&lt;/i&gt;    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;Interne Sicht - internes Schema&lt;/i&gt;&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Durch &lt;b&gt;Transformationsregeln &lt;/b&gt;werden die verschiedenen Schemata 
+      aufeinander gemappt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>114</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe das konzeptuelle Modell genauer!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Das konzeptionelle Modell beschreibt die &lt;b&gt;Gesamtheit der 
+      Unternehmensdaten auf logischer Ebene&lt;/b&gt;, ohne die Sichten der 
+      einzelnen Benutzer oder Details der physischen Speicherung zu 
+      ber&amp;#252;cksichtigen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Prinzipiell sollten auch die Integrit&amp;#228;tsbedingungen 
+      (Korrektheitsbedingungen) zusammen mit den Daten und deren Relationen 
+      festgelegt werden. Die heute verbreiteten relationalen Datenbanksystem 
+      erlauben keine Spezifikation von Operationen, sondern bieten sog. 
+      generische Operationen an, die auf allen Datentypen erlaubt ist.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Das konzeptionelle Modell wird meistens nicht von EDV-Fachleuten 
+      erstellt, sondern von Personen, die einen &amp;#220;berblick &amp;#252;ber die logische 
+      Organisation des Unternehmens haben.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>115</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist der Unterschied zwischen Datenbanksystem und Informationssystem?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Das &lt;b&gt;Informationssystem &lt;/b&gt;eines Unternehmens ist die Gesamtheit 
+      aller Instanzen und Prozesse, die die f&amp;#252;r das Unternehmen wichtigen 
+      Informationen von au&amp;#223;en aufnehmen, verarbeiten und entsprechende 
+      Informationen nach au&amp;#223;en wieder abgeben.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Das &lt;b&gt;Datenbanksystem&lt;/b&gt; ist nur ein Teil des Informationssystems, 
+      n&amp;#228;mlich derjenige Teil, in dem die Informationsbasis des Unternehmens 
+      verwaltet wird.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>116</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Vorteile bietet das konzeptuelle Modell?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Das konzeptuelle Modell stellt einen &lt;b&gt;stabilen Bezugspunkt f&amp;#252;r alle 
+      Anwendungen&lt;/b&gt; dar. Es &amp;#228;ndert sich nur, wenn sich die Vorstellungen 
+      &amp;#252;ber das Unternehmen &amp;#228;ndern.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Das konzeptuelle Modell stellt eine &lt;b&gt;einheitliche Dokumentation&lt;/b&gt; 
+      wesentlicher Aspekte des Unternehmens dar.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Das konzeptuelle Modell bietet die M&amp;#246;glichkeit, den Gebrauch der &lt;b&gt;Daten 
+      an zentraler Stelle zu kontrollieren&lt;/b&gt;.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Das konzeptuelle Modell schafft die wesentliche Voraussetzung f&amp;#252;r &lt;b&gt;Datenunabh&amp;#228;ngigkeit 
+      der Anwendungsprogramme&lt;/b&gt;.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>117</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die Begriffe Datenmanipulationssprache (DML - data 
+      manipulation language) und Datenbeschreibungssprache (DDL - data 
+      definition language)!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Datenmanipulationssprache:&lt;/b&gt; Sprache in der Anfragen an die 
+      Datenbank formuliert sind (Eintr&amp;#228;ge anlegen - &amp;#228;ndern - l&amp;#246;schen)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Datendefinitionssprache: &lt;/b&gt;dient der Beschreibung des 
+      konzeptionellen Modells
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (Tabellen erstellen - l&amp;#246;schen)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>270</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist eine Datenbank?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine Datenbank ist eine &lt;b&gt;integrierte Ansammlung von Daten&lt;/b&gt;, die 
+      allen Benutzern 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      eines Anwendungsbereiches als gemeinsame Basis aktueller Information 
+      dient. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>271</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein DBMS?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Das  DBMS (DataBase Management System)  ist  ein  Soft-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      waresystem, das es erm&amp;#246;glicht, eine Datenbank zu definieren, Daten zu 
+      speichern, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      zu ver&amp;#228;ndern und zu l&amp;#246;schen, sowie Anfragen an die Datenbank zu stellen. 
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>272</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sind Probleme bei Datenspeicherung in einem Dateisystem?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (1)  Redundanz: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        Da  die  Daten  jeweils  speziell  f&amp;#252;r  bestimmte  Anwendungen  
+      entworfen  wer-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      den,  werden  dieselben  Daten  in  verschiedenen  Dateien  wieder  
+      auftauchen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (z.B. Namen, Adressen). Redundanz f&amp;#252;hrt zu Speicherverschwendung und zu 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      erh&amp;#246;hten Verarbeitungskosten, vor allem bei &amp;#196;nderungen. Schlimmer jedoch 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ist es, dass diese Redundanz in der Regel nicht zentral kontrolliert 
+      wird, so 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      dass Konsistenzprobleme auftreten. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (2)  Inkonsistenz: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        Die  Konsistenz  der  Daten  (d.h.  die  logische  &amp;#220;bereinstimmung  
+      der  Datei-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Inhalte) kann nur schwer gew&amp;#228;hrleistet werden. Bei der &amp;#196;nderung einer 
+      Gr&amp;#246;-&amp;#223;e  m&amp;#252;ssten  alle  Dateien  ge&amp;#228;ndert  werden,  die  diese  Gr&amp;#246;&amp;#223;e  
+      beinhalten,  und 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      diese &amp;#196;nderungen m&amp;#252;ssten so miteinander abgestimmt geschehen, dass nicht 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      verschiedene Programme zum  selben Zeitpunkt unterschiedliche  Werte der-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      selben Gr&amp;#246;&amp;#223;e sehen k&amp;#246;nnen. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (3)  Daten-Programm-Abh&amp;#228;ngigkeit: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        &amp;#196;ndert sich der Aufbau einer Datei oder ihrer Organisationsform, so 
+      m&amp;#252;ssen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      darauf basierende Programme ge&amp;#228;ndert werden. Wird beispielsweise f&amp;#252;r 
+      eine 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Anwendung ein weiteres Datenelement in einem Satztyp ben&amp;#246;tigt (z.B. Tele-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      fonnummer  eines  Angestellten),  so  m&amp;#252;ssen  infolge  der  notwendigen  
+      Neu-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Definition der Datei alle Programme ge&amp;#228;ndert werden, unabh&amp;#228;ngig davon, 
+      ob 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      sie dieses neue Datenelement sehen wollen oder nicht. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (4)  Inflexibilit&amp;#228;t: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        Da die Daten nicht in ihrer Gesamtheit, sondern nur anwendungs-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      bezogen gesehen werden, ist es in vielen F&amp;#228;llen sehr kompliziert, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      neue  Anwendungen  oder  Auswertungen  vorhandener  Daten  zu 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      realisieren.  Dies  gilt  insbesondere  f&amp;#252;r  Auswertungen,  die  Daten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      aus verschiedenen Dateien ben&amp;#246;tigen w&amp;#252;rden. Die Organisation nach diesem 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      konventionellen Vorgehen ist sehr wenig anpassungsf&amp;#228;hig an die sich 
+      ver&amp;#228;n-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      dernden Anforderungen in einem Unternehmen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>273</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      In welchen Ebenen sind die Daten in einem Datenbanksystem organisiert 
+      (Tipp: Sichten) ?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Logische Gesamtsicht 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      In der Datenbank sind alle wichtigen Unternehmensdaten  zusammengefasst 
+      (zur 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Verk&amp;#252;rzung der Schreibweise sprechen wir im Folgenden von 
+      Unternehmensdaten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      statt von den Daten des betrachteten Anwendungsbereiches). Um die 
+      Datenbank 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      erstellen  zu  k&amp;#246;nnen,  ist  eine  Gesamtschau  der  Unternehmensdaten  
+      notwendig. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Alle Daten m&amp;#252;ssen zun&amp;#228;chst auf logischer Ebene in Form von 
+      Informationseinhei-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ten  und  deren  Beziehungen  untereinander  beschrieben  werden,  
+      unabh&amp;#228;ngig  von 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      EDV-Gesichtspunkten. Diese Beschreibung der Gesamtheit der 
+      Unternehmensda-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ten nennen wir logische Gesamtsicht. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Interne Sicht 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die Daten m&amp;#252;ssen auf den Speichern so organisiert werden, dass die 
+      Zugriffsan-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      forderungen der  verschiedenen Benutzer  m&amp;#246;glichst effizient  erf&amp;#252;llt 
+      werden k&amp;#246;n-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      nen. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Externe Sichten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Jede Benutzergruppe sieht den Ausschnitt der Datenbank, der f&amp;#252;r sie von 
+      Bedeu-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      tung ist. Die Daten werden so dargestellt, wie es f&amp;#252;r die Benutzer 
+      w&amp;#252;nschenswert 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      oder nat&amp;#252;rlich ist. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>600</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>274</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sind &amp;quot;Integrit&amp;#228;tsbedingungen&amp;quot;, die in einer Datenbank parallel zu 
+      den Daten gespeichert werden k&amp;#246;nnen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Zus&amp;#228;tzlich zu Informationen &amp;#252;ber Daten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      und Beziehungen zwischen Daten beschreibt das konzeptuelle Modell die 
+      Bedin-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      gungen, die f&amp;#252;r die Daten des Unternehmens immer gelten oder die 
+      Vorschriften 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      f&amp;#252;r  das  &amp;#196;ndern  von  Daten  machen.  Beispielsweise  k&amp;#246;nnen  solche  
+      Bedingungen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      festlegen, dass das &amp;#196;ndern bestimmter Daten das &amp;#196;ndern bestimmter 
+      anderer Da-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ten  zur  Folge  hat.  Da  solche  Bedingungen  im  realisierten  
+      Datenbanksystem  die 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      M&amp;#246;glichkeit zur Pr&amp;#252;fung der Korrektheit von Daten geben, hei&amp;#223;en solche 
+      Bedin-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      gungen auch Integrit&amp;#228;tsbedingungen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>275</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist der Unterschied zwischen einem Informationssystem und einem 
+      Datenbanksystem?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+       Das 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Informationssystem  eines  Unternehmens  ist  die  Gesamtheit  aller  
+      Instanzen  und 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Prozesse, die die  f&amp;#252;r das Unternehmen wichtige  Information  von au&amp;#223;en 
+      aufneh-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      men, verarbeiten und entsprechende Information nach au&amp;#223;en wieder 
+      abgeben. Das 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Datenbanksystem ist damit nur ein Teil des Informationssystems, n&amp;#228;mlich 
+      derje-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      nige Teil, in dem die Informationsbasis des Unternehmens verwaltet wird. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>276</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      In welchem Schema wird die physische Datenorganisation beschrieben?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Internes Schema.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>277</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Dinge/Informationen werden durch das internen Schema definiert?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Repr&amp;#228;sentation von Attributwerten  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Aufbau gespeicherter S&amp;#228;tze  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Zugriffsmethoden auf S&amp;#228;tze  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  zus&amp;#228;tzliche Zugriffspfade (Indexe, Verkettungen, usw.) 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>278</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was beschreiben die Transformationsregeln?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      In den Transformationsregeln konzeptuelles/internes Schema wird die 
+      Beziehung 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      zwischen  den  physisch  abgespeicherten  Feldern,  S&amp;#228;tzen  usw.  und  
+      den  Objekten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      des konzeptuellen Schemas definiert.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>279</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreiben Sie die (9) Schritte, in denen eine Anfrage an eine 
+      Datenbank und dessen Verarbeitung geschieht.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.  Das DBMS empf&amp;#228;ngt den Befehl des Anwendungsprogrammes, ein bestimm-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      tes Objekt eines externen Modells zu lesen. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.  Das DBMS holt sich die ben&amp;#246;tigten Definitionen des entsprechenden 
+      Objekt-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      typs aus dem zugeh&amp;#246;rigen externen Schema. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.  Mit Hilfe der Transformationsregeln externes/konzeptuelles Schema 
+      stellt das 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      DBMS  fest,  welche  konzeptuellen  Objekte  und  Beziehungen  ben&amp;#246;tigt  
+      wer-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      den.  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      4.  Mit Hilfe der Transformationsregeln konzeptuelles/internes Schema 
+      stellt das 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      DBMS fest, welche physischen Objekte zu lesen sind, es ermittelt die 
+      auszu-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      n&amp;#252;tzenden Zugriffspfade. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      5.  Das DBMS &amp;#252;bergibt dem Betriebssystem die Nummern der zu lesenden 
+      Spei-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      cherbl&amp;#246;cke. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      6.  Das Betriebssystem &amp;#252;bergibt die verlangten Bl&amp;#246;cke an das DBMS in 
+      einem 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Systempuffer. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      7.  Mit Hilfe der Transformationsregeln  stellt das DBMS aus den 
+      vorhandenen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      physischen S&amp;#228;tzen das verlangte externe Objekt zusammen. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       1. Einf&amp;#252;hrung - Architektur eines Datenbanksystems  19 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      8.  Das DBMS &amp;#252;bergibt das externe Objekt dem Anwendungsprogramm in sei-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      nen Arbeitsspeicher. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      9.  Das Anwendungsprogramm verarbeitet die vom DBMS &amp;#252;bergebenen Daten. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>280</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was versteht man unter &amp;quot;Binden&amp;quot; (bei Datenbanksystemen)?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+       Um den Befehl  eines  Anwendungs-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      programms auszuf&amp;#252;hren,  m&amp;#252;ssen die Objekte des externen Modells 
+      ausgedr&amp;#252;ckt 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      werden durch Objekte des konzeptuellen Modells und schlie&amp;#223;lich durch 
+      Objekte 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      des internen Modells. Sobald der Befehl, der sich auf ein externes 
+      Objekt bezieht, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ersetzt ist durch Befehle, die sich auf das konzeptuelle Modell 
+      beziehen, sind die 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      entsprechenden Daten des Anwendungsprogrammes an das konzeptuelle Modell 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8222;gebunden&amp;#8220;, entsprechend f&amp;#252;r das interne Modell. &amp;#196;ndert sich nach dem 
+      vollst&amp;#228;n-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      digen Binden des Anwendungsprogrammes das interne Modell, so l&amp;#228;uft das 
+      An-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      wendungsprogramm fehlerhaft - es muss neu (an das ver&amp;#228;nderte interne 
+      Modell) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      gebunden werden. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>281</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      In welchen Arten kann ein &amp;quot;binding&amp;quot; stattfinden?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Binden zur &amp;#220;bersetzungszeit 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Binden zum Zeitpunkt des Zugriffs auf die Daten (Laufzeit).  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>282</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was f&amp;#252;r Aufgaben erf&amp;#252;llt ein DBMS?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Schnittstelle, um Benutzern und Programmen zu erm&amp;#246;glichen, Daten 
+      zur&amp;#252;ckzugeben
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Datendefinition: Das DBMS muss Datendefinitionen (externe Schemata, 
+      das konzeptuelle Schema, das interne Schema, die zugeh&amp;#246;rigen 
+      Transformationsregeln) in den zugeh&amp;#246;rigen DDLs  akzeptieren  und  
+      interpretieren  k&amp;#246;nnen.  Es  erzeugt  aus  der  Quellform (Source) 
+      eine interne Darstellung.  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       - Integrit&amp;#228;t der Datenbank: Das DBMS sollte in m&amp;#246;glichst gro&amp;#223;em 
+      Umfang in der Lage sein, Integrit&amp;#228;tsverletzungen  zu  verhindern  
+      (es  verwehrt beispielsweise  &amp;#196;nderungen  von  Daten,  die vorgegebenen 
+      Integrit&amp;#228;tsbedingungen widersprechen) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Datensicherung (Recovery) Nach dem Auftreten von Fehlern muss das 
+      DBMS in der Lage sein, die Datenbank  wieder  in  einen  konsistenten  
+      Zustand  zu  versetzen.  Fehler  dieser  Art  sind 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Abbr&amp;#252;che  von  Anwendungsprogrammen,  Systemzusammenbruch,  
+      Plattenfehler, etc. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Koordination gleichzeitig auf der Datenbank arbeitender Benutzer 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Auf gro&amp;#223;en Datenbanken arbeiten im allgemeinen viele Benutzer 
+      gleichzeitig. Das DBMS  muss  daf&amp;#252;r  sorgen,  dass  sich  die  parallel  
+      arbeitenden  Programme  nicht gegenseitig  st&amp;#246;ren  oder  infolge  
+      unkoordinierter  Parallelarbeit  die  Integrit&amp;#228;t  der Datenbank 
+      zerst&amp;#246;ren. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Schutz der Daten gegen unberechtigten Zugriff 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Hierzu geh&amp;#246;ren alle technischen Ma&amp;#223;nahmen zum Datenschutz, d.h. zum 
+      Schutz der Daten gegen Missbrauch  jeglicher  Art. Das DBMS  muss daf&amp;#252;r 
+      sorgen, dass nur  befugte  Benutzer  Daten  lesen,  l&amp;#246;schen  und  
+      ver&amp;#228;ndern  k&amp;#246;nnen.  Da  in  einer Datenbank sehr  viele Daten  
+      integriert vorhanden sind, spielen Datenschutzma&amp;#223;nahmen in 
+      Datenbanksystemen eine besondere Rolle. Ein einfaches Beispiel mag dieses 
+       verdeutlichen:  in  einem  Unternehmen  d&amp;#252;rfen  verschiedene  Personen  
+      Information &amp;#252;ber Angestellte und deren Geh&amp;#228;lter sehen (Abteilungsleiter, 
+      Lohnb&amp;#252;ro, Revision, usw.), das Recht zu &amp;#196;nderungen  muss aber einem 
+      sehr kleinen Personenkreis  vorbehalten bleiben.  Andere Personen d&amp;#252;rfen 
+       lediglich die Geh&amp;#228;lter alleine sehen, nicht aber, welcher 
+      Angestellte welches Gehalt verdient. Wieder andere Personen d&amp;#252;rfen 
+      nichts &amp;#252;ber die Geh&amp;#228;lter erfahren. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>283</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sind gebr&amp;#228;uchliche Datenbank&amp;quot;tools&amp;quot;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Abfragesysteme 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Report-Writer 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Spreadsheets und Business Graphics Tools 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Tools f&amp;#252;r den Datenbankentwurf 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  4GL Entwicklungsumgebungen. 4GL (fourth generation language, Da-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      tenbanksprachen der vierten Generation) integrieren imperative Sprach-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      konzepte  mit SQL. Sie unterst&amp;#252;tzen typischerweise die  interaktive Pro-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      grammierung von Men&amp;#252;s, Masken und Formularen mit dahinterliegenden 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Prozeduren (Ausl&amp;#246;seregeln und Aktionen). 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  CASE Tools (computer aided software engineering) f&amp;#252;r den Entwurf von 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Datenbankanwendungen 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>284</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sind Datenbank &amp;quot;Utilities&amp;quot;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Kleinere Anwendungen, die vom DBS bereitgestellt werden oder anderen 
+      Anbietern. Beispiele sind:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Laderoutinen (f&amp;#252;r das erstmalige Laden der Datenbank), 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  statistische Routinen, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Routinen zur Fehleranalyse, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Routinen zur Reorganisation (der Daten auf den Speichern), 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Kopier- und Archivierungsroutinen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>285</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Data-Dictionary?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine Art &amp;quot;Meta-Datenbank&amp;quot; die zus&amp;#228;tzliche Verwaltungsinformationen 
+      speichert:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Es dient dem DBMS zur Speicherung der Daten zur Verwaltung der Da-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      tenbank  (Schema-Informationen,  Sichten,  Zugriffsrechte,  
+      Informationen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      zur Optimierung von Anfragen wie etwa Statistiken usw.). 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Es dient dem Anwendungsprogrammierer zur Suche nach Informationen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#252;ber gespeicherte Daten und deren Struktur (Schema-Informationen) so-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      wie zur Analyse bei Leistungsproblemen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>286</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Repository in Bezug zu Datenbanken?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Es ist ein erweitertes Data-Dictionary mit mehr als nur zur 
+      Eigenverwaltung genutzen Informationen. Z.B:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Beschreibungen der Daten  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Angaben zu den Beziehungen zwischen den Daten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Beschreibungen der Programme (Transaktionen) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Angaben dar&amp;#252;ber, welche Programme welche Daten nutzen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Konsistenzbedingungen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Angaben &amp;#252;ber Zugriffsbefugnisse  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Entwurfsdaten  (grafische  konzeptuelle  Modelle,  Dokumentation  der 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Entwurfsschritte usw.) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Verantwortlichkeiten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Entwurfsdokumente, Quell-Code zu Anwendungsprogrammen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>287</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was versteht man unter physischen Datenunabh&amp;#228;ngigkeit?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Physische Datenunabh&amp;#228;ngigkeit bedeutet Isolierung der 
+      Anwendungsprogramme 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      von &amp;#196;nderungen der physischen Datenorganisation.  Diese Form der 
+      Datenunab-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      h&amp;#228;ngigkeit  wird  in  der  Drei-Schichten-Architektur  dadurch  
+      gew&amp;#228;hrleistet,  dass 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#196;nderungen des internen Modells das konzeptuelle Modell unber&amp;#252;hrt 
+      lassen: die 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#196;nderungen werden durch Modifikation der Transformationsregeln 
+      aufgefangen. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Da das konzeptuelle Modell unber&amp;#252;hrt bleibt, bleiben auch die externen 
+      Modelle 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      und damit alle Benutzerprogramme von &amp;#196;nderungen der Datenorganisation 
+      unbe-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      r&amp;#252;hrt. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>288</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was versteht man unter logischer Datenunabh&amp;#228;ngigkeit?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Logische  Datenunabh&amp;#228;ngigkeit  bedeutet  Isolierung  der  
+      Anwendungsprogramme 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      von  &amp;#196;nderungen  des  konzeptuellen  Modells.  Beispielsweise  k&amp;#246;nnen  
+      neue  An-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      wendungen dazu  f&amp;#252;hren,  dass  im konzeptuellen  Modell Objekttypen 
+      zus&amp;#228;tzliche 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Attribute erhalten, dass neue Beziehungstypen eingef&amp;#252;hrt werden m&amp;#252;ssen, 
+      usw. In 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      allen  diesen  F&amp;#228;llen  m&amp;#252;ssen  die  bestehenden  externen  Modelle  
+      nicht  ver&amp;#228;ndert 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      werden, d.h. die vorhandenen Programme bleiben unber&amp;#252;hrt. Lediglich die 
+      Trans-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      formationsregeln externes/konzeptuelles Modell m&amp;#252;ssen m&amp;#246;glicherweise 
+      abge&amp;#228;n-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      dert werden.  
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>289</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie wirkt sich Datenunabh&amp;#228;ngigkeit unter der Bindung aus?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Der  Begriff  der  Datenunabh&amp;#228;ngigkeit  muss  auch  unter  dem  
+      Gesichtspunkt  des 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Bindens gesehen werden. Im  Falle des  Bindens  zur &amp;#220;bersetzungszeit  
+      bleibt das 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Anwendungsprogramm nach &amp;#196;nderungen des internen oder konzeptuellen Sche-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      mas  unver&amp;#228;ndert,  muss  aber  neu  &amp;#252;bersetzt  werden.  Man  spricht  
+      von  statischer 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Datenunabh&amp;#228;ngigkeit.  Im  Falle  des  Bindens  zur  Zugriffszeit  ist  
+      auch  diese  Ab-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      h&amp;#228;ngigkeit aufgehoben, man spricht von dynamischer Datenunabh&amp;#228;ngigkeit. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>290</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Konstrukte (4) kennt das ER Modell?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Entity-Typ (entity type) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Beziehungstyp (relationship type) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Entity-Typen und Beziehungstypen haben Attribute 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Zu jedem Typ gibt es dann beliebig viele Instanzen, also Entities und 
+      Be-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ziehungen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>291</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Entity-Typ?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ein Entity-Typ repr&amp;#228;sentiert die Menge aller Entities, die die gleichen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      charakteristischen Eigenschaften besitzen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>292</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Entity?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die Modellbildung besteht darin, dass wir gewisse Dinge der realen Welt 
+      als Ob-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      jekte, sogenannte Entities, ansehen, zwischen denen gewisse Beziehungen 
+      beste-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      hen. Es ist Aufgabe des Datenbankadministrators, im Einzelfalle zu 
+      beschlie&amp;#223;en, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      was eine Entity ist.  Als Entity wird man im allgemeinen solche Dinge 
+      ansehen, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      die in der realen Welt allein f&amp;#252;r sich identifizierbar sind.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>293</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was versteht man unter einer Beziehung(styp)?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Entities k&amp;#246;nnen untereinander in Beziehung stehen. Beispielsweise kann 
+      die Enti-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ty &amp;#8222;Kurt M&amp;#252;ller&amp;#8220; in der Beziehung  &amp;#8222;ist-Vater-von&amp;#8220; zu der Entity &amp;#8222;Peter 
+      M&amp;#252;ller&amp;#8220; 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      stehen. Ein anderes Beispiel ist die Beziehung zwischen einem bestimmten 
+      Mitar-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      beiter und einem Projekt, an dem er mitarbeitet. Genauso wie bei 
+      Entities betrach-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ten  wir  nicht  einzelne  Beziehungen,  sondern  Beziehungstypen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>294</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sind Attribute?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Jeder Entity-Typ besitzt Attribute. Attribute des Entity-Typs 
+      Angestellter sind z.B. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Name, Personalnummer, Beruf, Gehalt usw. Jedes Attribut kann Werte aus 
+      einem 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      bestimmten Wertebereich annehmen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>295</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nennen Sie ein Beispiel f&amp;#252;r ein Beziehungsattribut.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Analog zu den Entity-Typen k&amp;#246;nnen auch einem Beziehungstyp  Attribute 
+      zuge-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ordnet sein. Wenn in einem Unternehmen ein Angestellter gleichzeitig an 
+      mehre-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ren Projekten mitarbeiten kann, so wird es beispielsweise sinnvoll sein, 
+      dem Be-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ziehungstyp  IST-MITARBEITER-AN  das  Attribut  PROZENT-DER-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ARBEITSZEIT zuzuordnen. F&amp;#252;r die  Beziehung  &amp;#8222;Meyer  bearbeitet Projekt 
+      P10&amp;#8220; 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      besagt der Wert dieses Attributes dann beispielsweise, dass Meyer mit 
+      50% seiner 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Arbeitszeit am Projekt P10 arbeitet. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>296</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Schl&amp;#252;ssel und ein Prim&amp;#228;rschl&amp;#252;ssel?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wir  hatten gesagt,  dass Entities  voneinander unterscheidbare 
+      Einheiten sind. Es gibt also ein Attribut oder eine Menge von Attributen 
+      f&amp;#252;r jeden Entity-Typ, deren Werte jede Entity identifizieren. Ein 
+      solches Attribut oder eine solche Menge von Attributen hei&amp;#223;t Schl&amp;#252;ssel 
+      f&amp;#252;r diesen Entity-Typ. Ein Schl&amp;#252;ssel f&amp;#252;r den Entity-Typ ANGESTELLTER 
+       ist  beispielsweise  die  Attributmenge  (NAME, GEBURTSDATUM).  
+      Gelegentlich  sind  solche  Schl&amp;#252;ssel  ungeeignet,  beispielsweise 
+      m&amp;#252;sste man in vielen Anwendungen zu (NAME, GEBURTSDATUM) weitere  
+      Attribute  hinzuf&amp;#252;gen,  um  einen  Schl&amp;#252;ssel  zu  erhalten.  Aus  diesem 
+       Grunde werden  oft  k&amp;#252;nstliche  Attribute  eingef&amp;#252;hrt,  die  als  
+      Schl&amp;#252;ssel  verwendet  werden sollen. Typisch ist etwa die 
+      Verwendung von Personalnummern in Betrieben. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Gibt es mehrere Schl&amp;#252;ssel f&amp;#252;r einen Entity-Typ, so wird im allgemeinen 
+      einer von 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ihnen als Prim&amp;#228;rschl&amp;#252;ssel ausgezeichnet.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>297</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreiben Sie eine 1:1 Beziehung.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Von gro&amp;#223;er praktischer Bedeutung sind Aussagen &amp;#252;ber die  Art des 
+      Beziehungs-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      typs: kann eine Entity vom Typ E1 nur mit einer oder mit vielen Entities 
+      vom Typ 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      E2  in  Beziehung  stehen,  usw.  Im  ER-Modell  werden  deshalb  
+      Beziehungstypen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      durch ihre Komplexit&amp;#228;t charakterisiert: Die einfachste Form der 
+      Beziehung zwi-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      schen zwei Entity-Typen E1
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       und E2
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       ist die 1:1-Beziehung.  Ein Beispiel f&amp;#252;r einen 1:1-Beziehungstyp ist 
+      VERHEIRATET. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>298</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist eine n:1 Beziehung?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+       Jede Entity e vom Typ E
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       steht in Be-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ziehung mit beliebig vielen (keinem, einem oder mehreren) Entities vom 
+      Typ E1, aber jede Entity vom Typ E1 steht in Beziehung zu h&amp;#246;chstens 
+      einer Entity vom Typ E2. Ein solcher Beziehungstyp hei&amp;#223;t n:1 von E1 
+      nach E2. Geh&amp;#246;rt jeder Mitarbeiter  einer  Firma  zu  h&amp;#246;chstens  
+      einer  Abteilung,  so  ist  der  Beziehungstyp  IST-ANGEH&amp;#214;RIGER-VON vom 
+      Typ n:1 von MITARBEITER zu ABTEILUNG. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>299</card_id>
+		<proj_id>6</proj_id>
+		<stack>2</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist eine n:m Beziehung?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Bei einem n:m-Beziehungstyp k&amp;#246;nnen einer Entity vom Typ E1 beliebig 
+      viele Entities vom Typ E2 zugeordnet sein und einer Entity vom Typ E2 
+      k&amp;#246;nnen beliebig viele  Entities  vom  Typ  E1  zugeordnet  sein.  
+      Dies  ist  die  komplizierteste  Beziehung, sie kann nicht in allen 
+      Datenmodellen unmittelbar ausgedr&amp;#252;ckt werden. Ein Beispiel f&amp;#252;r 
+      einen n:m-Beziehungstyp ist IST-MITARBEITER-AN zwischen Projekten und 
+      Mitarbeitern. Ein Mitarbeiter kann an mehreren Projekten mitarbeiten, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      an einem Projekt arbeiten meist mehrere Mitarbeiter mit. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>300</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sind schwache Entity- und Beziehungstypen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Es kommt vor, dass eine Entity nicht durch ihre eigenen Attribute allein 
+      identifi-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ziert  werden  kann,  sondern  dass  die  eindeutige  Identifizierung  
+      die  Ausnutzung 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      einer Beziehung erfordert. Ein Beispiel: &amp;#220;ber die Kinder der 
+      Angestellten eines 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Unternehmens  sollen  die  Attribute  NAME  und  ALTER  abgespeichert  
+      werden. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die Kinder sind eigene Entities, zur Identifizierung ist jedoch die 
+      Personalnum-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      mer des Vaters notwendig.  Mit anderen  Worten: die Identifizierung  ist 
+       m&amp;#246;glich 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#252;ber den Beziehungstyp VATER-VON, der den Entity-Typ ANGESTELLTE mit 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      dem Entity-Typ KIND verbindet.  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Entity-Typen,  die  -  wie  der  Typ  KIND  -  nur  in  Beziehung  mit  
+      anderen  Entity-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Typen identifizierbar sind, nennt man schwache Entity-Typen. 
+      Beziehungstypen, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      an denen ein schwacher Entity-Typ teilnimmt, hei&amp;#223;en schwache 
+      Beziehungstypen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>301</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreiben Sie, was Spezialisierung im ER Modell bedeutet.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Entity-Mengen enthalten h&amp;#228;ufig Teilmengen, die aus Anwendungssicht von 
+      eige-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      nem Interesse sind. Beispielsweise wollen wir unter den Mitarbeitern 
+      einer Firma 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      zwischen  Angestellten  und  freien  Mitarbeitern  unterscheiden.  Freie 
+       Mitarbeiter 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      und Angestellte sind in diesem Falle Spezialisierungen des Typs 
+      Mitarbeiter.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>302</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreiben Sie, was im ER Modell Generalisierung bedeutet.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Falls 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      wir den Datenbankentwurf  mit den Entity-Typen Angestellter und  Freier 
+      Mitar-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      beiter begonnen h&amp;#228;tten, so w&amp;#252;rden wir umgekehrt die beiden Typen zum Typ 
+      Mit-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      arbeiter generalisieren, um in bestimmten Anwendungen nicht immer die 
+      Fallun-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      terscheidung machen zu m&amp;#252;ssen. Offensichtlich gilt: Angestellte ebenso 
+      wie Freie 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Mitarbeiter  sind  Mitarbeiter,  wir  sagen  deshalb:  ANGESTELLTER  
+      is-a 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      MITARBEITER bzw. FREIER MITARBEITER is-a MITARBEITER (Bild 2.9). 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>303</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was versteht man unter einer Relation (mathematisch)?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Sind D1, D2, ..., Dn
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       Mengen von Werten, so ist 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      R Element von D1 X D2 X ... X Dn eine n-stellige Relation &amp;#252;ber den 
+      Mengen (domains) und n ist der Grad (degree) der Relation. Hier ist &amp;quot;X&amp;quot; 
+      das Kreuzprodukt.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>304</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was entspricht einem Entity in einer Relation?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ein Tupel einer Relation beschreibt offensichtlich ein Objekt unseres 
+      Interesses, ein Entity, &amp;#252;ber die  Kombination seiner  Werte. Ein solches 
+      Tupel  ist  beispielsweise Name, Beruf, Wohnort, Geburtsjahr des 
+      Angestellten Walter. Die Relation 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      entspricht dann der Menge aller Angestellten 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>305</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was entspricht einem Entitytyp in einer Relation?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#196;hnlich wie bei der Beschreibung der Struktur von Entities &amp;#252;ber 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Entity-Typen beschreiben wir die Eigenschaften einer Relation (gleichartige 
+      Menge von Tupeln!) durch das Relationenschema.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ein Relationenschema R(A1 , ..., An ) spezifiziert eine Relation mit 
+      Namen R und mit  den  paarweise  verschiedenen  Attributen A1 ,  ...,  
+      An (mit  den  Attributnamen A1 , ..., An). Jedem Attribut Ai  ist ein 
+      Wertebereich dom(Ai)  zugeordnet.  Die Wertmengen verschiedener 
+      Attribute k&amp;#246;nnen nat&amp;#252;rlich identisch sein. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die zu R(A 1 , ..., A n ) geh&amp;#246;rigen Relationen sind also s&amp;#228;mtlich 
+      Relationen des Typs  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      R Element von dom(A 1 ) X dom(A 2 ) X...X dom(A n ). 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      In einer Datenbank existiert zu jedem Zeitpunkt genau eine Relation R 
+      zum Rela-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      tionenschema  R(A 1 , ..., A n ),  n&amp;#228;mlich  diejenige  mit  den  gerade  
+      g&amp;#252;ltigen  Werten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (entsprechend den zu diesem Zeitpunkt existierenden Entities). Man sagt 
+      auch R 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      sei eine Auspr&amp;#228;gung von R(A 1 , ..., A n ). 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>306</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Eigenschaft fordert man vonAttributen eines Entity(-typs)?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Jedes Attribut  einer Relation muss &lt;b&gt;elementar&lt;/b&gt; sein, d. h. der 
+      Wert eines Attributes 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ist unteilbar, er setzt sich nicht aus mehreren anderen Werten zusammen. 
+      Zusam-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      mengesetzte oder mehrwertige Werte sind nicht erlaubt. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>307</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie nennt man ein ER Schema in welchem alle Attribute elementar sind?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine Relation bei der jedes Attribut elementar ist, ist in der ersten 
+      Normal-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      form (1NF). S&amp;#228;mtliche theoretischen Arbeiten &amp;#252;ber relationale 
+      Datenbanken 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      gehen von Relationen in 1. Normalform aus.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>308</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein (Relationen-)schema?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die Gesamtheit der Relationenschemata einer Datenbank hei&amp;#223;t Schema der 
+      (relationalen)  Datenbank.  Zum  Schema  der  Datenbank  geh&amp;#246;rt  dar&amp;#252;ber 
+       hinaus  die Menge der Integrit&amp;#228;tsbedingungen, die Aussagen &amp;#252;ber die 
+      Korrektheit von Werten in der Datenbank machen. Auf diesen Aspekt gehen 
+      wir sp&amp;#228;ter ein. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>309</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was zeichnet einen Schl&amp;#252;ssel unter allen Kombinationen von Attributen 
+      aus?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1. Eindeutige Identifizierbarkeit eines Tupels
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2. Minimalit&amp;#228;t unter allen Mengen von Attributen, die 1. erf&amp;#252;llen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Genauer:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Da eine Relation eine Menge ist, sind die Tupel unterscheidbar. Es gibt 
+      also f&amp;#252;r jede Relation R eine Menge von Attributen &amp;#8211; im Extremfall 
+      alle Attribute von R, deren Werte f&amp;#252;r die Tupel identifizierend sind. 
+      Solche Attributmengen nennen wir Schl&amp;#252;ssel, wenn  sie minimal  sind. 
+      D.h.: Ist X ein Schl&amp;#252;ssel  von  R, so  ist keine Teilmenge von X 
+      ebenfalls Schl&amp;#252;ssel von R. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beim Schemaentwurf spezifiziert man mit dem Relationenschema, welche 
+      Attributmenge einen Schl&amp;#252;ssel bilden soll. Es d&amp;#252;rfen dann beim Arbeiten 
+      mit der Datenbank nur solche Tupel eingef&amp;#252;gt werden, die die 
+      Schl&amp;#252;sseleigenschaft der gew&amp;#228;hlten Attributmenge nicht verletzen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>310</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Prim&amp;#228;rschl&amp;#252;ssel?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine Relation kann mehrere Schl&amp;#252;ssel haben. Beispielsweise kann ein 
+      Angestell
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ter  identifiziert  werden  &amp;#252;ber  seine  Angestelltennummer,  aber  auch 
+       &amp;#252;ber  Name, Geburtstag und Adresse. In diesem Falle wird meist ein 
+      Schl&amp;#252;ssel ausgezeichnet und  zum  Prim&amp;#228;rschl&amp;#252;ssel  erkl&amp;#228;rt.  Die  
+      anderen  Schl&amp;#252;ssel  werden  oft  Schl&amp;#252;sselkandidaten oder 
+      candidate keys genannt; sie spielen bei einigen Entwurfsverfahren f&amp;#252;r 
+      relationale Datenbanken eine Rolle.  
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>311</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie ist eine Relationenalgebra (Beschreibung)?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Spezifikation  von  gew&amp;#252;nschten  Relationen  durch  Angabe  einer  Folge 
+       von Operationen, mit der die Relationen aufgebaut werden sollen. Der 
+      Benutzer wendet spezielle Operationen auf Relationen an, um seine 
+      gew&amp;#252;nschte Relation zu konstruieren. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>312</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was versteht man unter einem Relationenkalk&amp;#252;l?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Spezifikation von gew&amp;#252;nschten Relationen in deskriptiver Weise, d. h. 
+      ohne 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Angabe,  welche  Operationen  zum  Aufbau  der  Relation  verwendet  
+      werden sollen.  Mit  Hilfe  des  Pr&amp;#228;dikatenkalk&amp;#252;ls  wird  die  Menge  
+      der  gew&amp;#252;nschten Tupel beschrieben: es wird ein Pr&amp;#228;dikat (eine 
+      Bedingung) angegeben, das die Tupel erf&amp;#252;llen m&amp;#252;ssen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>313</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Operationen muss eine Relationenalgebra unterst&amp;#252;tzen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Vereinigung
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Differenz
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Kartesisches Produkt
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Projektion
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Selektion
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Umbenennung
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Verbund/Join
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - natural Join
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>314</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      {(Angestellter.Wohnort) | Angestellter.Beruf = &amp;quot;Programmierer&amp;quot;}
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>315</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Geben sie eine Relationenkalk&amp;#252;l zu folgender Frage an:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FINDE DEN (ODER DIE) PROGRAMMIERER 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        MIT DEM H&amp;#214;CHSTEN GEHALT.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+       RANGE ANGEST X 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        {(ANGEST.NAME) | ANGEST.BERUF = &amp;quot;PROGRAMMIERER&amp;quot; AND 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+              &amp;#172; EXISTS X ( X.BERUF = &amp;quot;PROGRAMMIERER&amp;quot; AND 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+                X.GEHALT &amp;gt; ANGEST.GEHALT)} 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>316</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Kalk&amp;#252;l von
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FINDE DIE NUMMERN ALLER ANGESTELLTEN DER 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        ABTEILUNG 6, DIE IN DORTMUND WOHNEN 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      {(ANGEST.ANGNR) |  ANGEST.ABTNR = 6 &amp;#61657;&amp;#61472;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#61472; &amp;#61472; ANGEST.WOHNORT = &amp;quot;DORTMUND&amp;quot;} 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>317</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie ist relationale Vollst&amp;#228;ndigkeit definiert?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Der Relationenkalk&amp;#252;l wird als Ma&amp;#223;stab f&amp;#252;r die Beurteilung der 
+      M&amp;#228;chtigkeit relationaler Abfragesprachen angesehen. Eine Sprache, 
+      die nicht mindestens die Ausdruckskraft  des  Relationenkalk&amp;#252;ls  
+      besitzt,  wird  als  unvollst&amp;#228;ndig  erachtet.  Man bezeichnet eine  
+      Abfragesprache als  relational  vollst&amp;#228;ndig (complete), wenn  mit ihr 
+      alles ausgedr&amp;#252;ckt werden kann, was im Relationenkalk&amp;#252;l ausgedr&amp;#252;ckt 
+      werden kann. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>318</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Schreibe eine SQL Anweisung f&amp;#252;r:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       FINDE DIE BERUFE DER ANGESTELLTEN IN ABTEILUNG 3.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT BERUF 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        FROM ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        WHERE ABTNR = 3
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>319</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SQL:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FINDE ALLE WOHNORTE DER ANGESTELLTEN. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT DISTINCT WOHNORT 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANGEST 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>320</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SQL:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FINDE  F&amp;#220;R  JEDES  PROJEKT  DIE  PROJEKTNUMMER  UND  DEN 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      NAMEN DES PROJEKTLEITERS 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+        SELECT PNR, NAME 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        FROM PROJEKT, ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        WHERE PROJEKT.P_LEITER = ANGEST.ANGNR 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>321</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FINDE  DIE  NAMEN  ALLER  ANGESTELLTEN,  DIE  AM  PROJEKT 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      MIT DER NUMMER 17 MITARBEITEN 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Als SQL-Abfrage lautet sie: 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT ANGEST.NAME 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANG_PRO, ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE  ANG_PRO.PNR = 17 AND 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ANG_PRO.ANGNR = ANGEST.ANGNR
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>322</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GIB  DIE  NAMEN  ALLER  PERSONEN  AUS,  DIE  MEHRERE 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      PROJEKTE LEITEN. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ... kann in SQL folgenderma&amp;#223;en dargestellt werden: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT DISTINCT ANGEST.NAME 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANGEST, PROJEKT AS P1, PROJEKT AS P2 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE  ANGEST.ANGNR = P1.P_LEITER AND 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        ANGEST.ANGNR = P2.P_LEITER AND 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        P1.PNR != P2.PNR8 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>323</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Definieren Sie die &amp;quot;outer Joins&amp;quot;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      LEFT OUTER JOIN: Es bleiben die nicht der JOIN-Bedingung ent-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      sprechenden Zeilen der Tabelle erhalten, die links (vom Schl&amp;#252;sselbe-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      griff OUTER JOIN) steht. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      RIGHT OUTER JOIN: Es bleiben die nicht der JOIN-Bedingung ent-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      sprechenden Zeilen der Tabelle erhalten, die rechts steht. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FULL OUTER JOIN: Es bleiben die nicht der JOIN-Bedingung ent-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      sprechenden Zeilen der Tabellen erhalten, die links und rechts stehen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>324</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Gib die Query zu
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GIB  DIE  NAMEN  ALLER  PERSONEN  AUS,  DIE  MEHRERE 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      PROJEKTE LEITEN. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      mittels einer Subquery an.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT DISTINCT NAME 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        FROM ANGEST, PROJEKT AS P1 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        WHERE  ANGNR = P1.P_LEITER AND 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+          EXISTS ( SELECT * 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+            FROM PROJEKT AS P2 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+            WHERE  ANGNR = P2.P_LEITER AND 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+              P1.PNR != P2.PNR) 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>325</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Konkretisieren Sie den Operator DISINCT an einem Beispiel.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT DISTINCT WOHNORT FROM ANGESTELLTER;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>326</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Konkretisieren Sie den Operator IN in Verbindung mit einer Subquery.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT NAME FROM ANGESTELLTER WHERE ANG_ID IN (SELECT PROJ_LEITUNG FROM 
+      PROJECT)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Finde alle Angestellten, die ein Projekt leiten.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>327</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GIB DIE SUMME DER GEH&amp;#196;LTER ALLER ANGESTELLTEN AN. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT SUM(GEHALT) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANGEST 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>328</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GIB DIE ZAHL ALLER ZEILEN DER TABELLE ANGEST AN. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GIB DIE ZAHL ALLER ZEILEN DER TABELLE ANGEST AN. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>329</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Gib die Zahl aller Projektleiter an.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT COUNT(DISTINCT P_LEITER) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM PROJEKT 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>330</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Gib die Zahl der geleiteten Projekte an.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT COUNT(P_LEITER) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM PROJEKT 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>331</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT EVERY(SPALTE) FROM WAHR1 gibt was zur&amp;#252;ck?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      false
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>332</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT EVERY(SPALTE) FROM WAHR2 gibt was zur&amp;#252;ck?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      true
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>333</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT ANY(SPALTE) FROM WAHR1 gibt was zur&amp;#252;ck?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      true
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>334</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT ANY(SPALTE) FROM WAHR3 gibt was zur&amp;#252;ck?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      false
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>335</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Geben Sie f&amp;#252;r die folgende Abfrage eine SQL-Abfrage mit der MAX-Funktion 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      und eine SQL-Abfrage ohne Aggregierungsfunktion an: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        GIB DAS H&amp;#214;CHSTE GEHALT EINES PROGRAMMIERERS AN. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Mit MAX-Funktion: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT MAX(GEHALT) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE BERUF = &amp;quot;PROGRAMMIERER&amp;quot;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ohne Aggregierungsfunktion: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT DISTINCT GEHALT 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE  BERUF = &amp;quot;PROGRAMMIERER&amp;quot; AND 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+        GEHALT &amp;gt;= ALL ( SELECT GEHALT 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+          FROM ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+          WHERE BERUF = &amp;quot;PROGRAMMIERER&amp;quot;) 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>336</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GIB  F&amp;#220;R  JEDE  ABTEILUNG  DEREN  NUMMER,  DIE  SUMME 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ALLER  GEH&amp;#196;LTER  UND  DAS  DURCHSCHNITTSGEHALT  DER 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ANGESTELLTEN DIESER ABTEILUNG AN. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Verwende GROUP  BY!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT ABTNR, SUM(GEHALT), AVG(GEHALT) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GROUP BY ABTNR 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>337</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GIB  F&amp;#220;R  JEDE  ABTEILUNG, DESSEN GEHALTSSUMME 6000 &amp;#220;BERSCHREITET DEREN  
+      NUMMER,  DIE  SUMME 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ALLER  GEH&amp;#196;LTER  UND  DAS  DURCHSCHNITTSGEHALT  DER 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ANGESTELLTEN DIESER ABTEILUNG AN.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT ABTNR, SUM(GEHALT), AVG(GEHALT) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GROUP BY ABTNR 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      HAVING SUM(GEHALT) &amp;gt; 6000; 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>338</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GIB  JEWEILS  DIE  SUMME  DER  ARBEITSZEIT  ALLER 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      MITARBEITER (Z.B.: 1150 PROZENT) F&amp;#220;R DIE PROJEKTE 10 BIS 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      19 AN, SOWEIT MEHR ALS ZEHN PERSONEN DARAN BETEILIGT 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SIND. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Tipp: GROUP BY und HAVING nutzen!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SELECT SUM(PROZ_ARB) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      FROM ANG_PRO 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE PNR &amp;gt;= 10 AND PNR &amp;lt; 20 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      GROUP BY PNR 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      HAVING COUNT(*) &amp;gt; 10 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>339</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was bedeutet Konsistenz einer Datenbank?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Unter der Konsistenz einer Datenbank verstehen wir die Korrektheit und 
+      die Vollst&amp;#228;ndigkeit der darin enthaltenen Informationen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>340</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Geben Sie ein paar Beispiele an, wie Inkonsistenzen auftreten k&amp;#246;nnen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      a)  Referenz ins Leere (jemand l&amp;#246;scht ein Tupel, ohne dass die darauf 
+      verweisenden Referenzen korrigiert werden)  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      b)  Eine  Buchung  X  ist  vom  Konto  A  abgebucht,  aber  nicht  dem  
+      Zielkonto  B gutgeschrieben 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      c)  Ein Summenfeld gibt nicht die korrekte Summe der Einzelelemente 
+      (z.B. Gehaltssumme) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      d)  Ein negatives Alter 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      e)  Bei  Mehrfachspeicherung  derselben  Daten  in  verschiedenen  
+      S&amp;#228;tzen:  &amp;#196;nderung ist an einer Stelle erfolgt, nicht an der 
+      anderen 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>341</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Geben Sie Ursachen f&amp;#252;r Inkonsistenzen an.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.  Falsche Eingabedaten 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.  Fehler  im  Anwendungspramm
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.  Falsche Behandlung paralleler Anwendungsabl&amp;#228;ufe  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      4.  Abst&amp;#252;rze des Betriebssystems oder des DBMS 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      5.  Ausf&amp;#228;lle von Massenspeichern 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      6.  Falsche Schemadefinitionen (z.B. ein den Daten  nicht angemessener 
+      Datentyp) 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>342</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie verhindert ein DBS Inkonsistenz durch Parallelit&amp;#228;t der Zugriffe?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Transaktionsmanagement:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Dies bedeutet, dass jedes Anwendungsprogramm immer 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      eine konsistente Sicht auf die Datenbank erh&amp;#228;lt, dass also die von ihm 
+      gelese-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      nen Daten konsistent und aktuell sind. (Transaktionsmanagement)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>343</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie verhindert ein DBS Inkonsistenzen durch Systemfehler (Abst&amp;#252;rze, 
+      Dateifehler, etc. )?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Recovery:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      fehlerhafte Daten k&amp;#246;nnen wiederhergestellt werden.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (Durch Aufzeichnung eines Transaktionsprotokolls)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>344</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist eine Transaktion?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine Transaktion ist eine Folge von Befehlen, die entweder vollst&amp;#228;ndig 
+      und 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      korrekt ausgef&amp;#252;hrt wird oder &amp;#252;berhaupt nicht.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>345</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was bedeuten die Eigenschaften A C I D f&amp;#252;r eine Transaktion?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Unteilbarkeit (atomicity)  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine Transaktion ist eine unteilbare Verarbeitungseinheit; sie wird 
+      entwe-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      der ganz oder &amp;#252;berhaupt nicht ausgef&amp;#252;hrt.  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Konsistenz (consistency) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine korrekte Ausf&amp;#252;hrung der Transaktion f&amp;#252;hrt die DB von einem konsis-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      tenten zu einem konsistenten Zustand.  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Isolation (isolation) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine Transaktion muss so ablaufen, als sei sie die einzige im System. 
+      Zwi-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      schenzust&amp;#228;nde (die ja inkonsistent sein k&amp;#246;nnen) d&amp;#252;rfen f&amp;#252;r andere Trans-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      aktionen nicht sichtbar sein. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Dauerhaftigkeit (durability) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ergebnisse  einer  erfolgreich  beendeten  Transaktion  sind  dauerhaft, 
+       d.h. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#252;berleben jeden nachfolgenden Fehler.  
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>346</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche SQL Befehle starten eine Transaktion?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+       -Jedes  SQL-Schema  Statement  ALTER,  CREATE,  DROP  sowie GRANT  UND REVOKE 
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Die SQL-Daten Statements  OPEN, CLOSE, FETCH, INSERT, UPDATE, DELETE, FREE 
+      LOCATOR, HOLD LOCATOR  
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Eines  der  neuen  SQL:1999  Transaktions-Statements:  START TRANSACTION, 
+      COMMIT AND CHAIN, ROLLBACK AND CHAIN 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -  Das SQL-Kontroll Statement RETURN, falls es die Abarbeitung einer Sub-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      query bewirkt und keine Transaktion aktiv ist. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>347</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreiben Sie, was bei folgendem Verlauf geschieht.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      START TRANSACTION 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      INSERT INTO ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      VALUES ( 200, &amp;#180;MEIERLING&amp;#180;, &amp;#180;HAGEN&amp;#180;, &amp;#180;INGENIEUR&amp;#180;, 5000 , 3 ) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      INSERT INTO ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      VALUES ( 201, &amp;#180;M&amp;#220;LLER&amp;#180;, &amp;#180;HAGEN&amp;#180;, &amp;#180;INGENIEUR&amp;#180;, 5000 , 3 ) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      INSERT INTO ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      VALUES ( 202, &amp;#180;MAIEN&amp;#180;, &amp;#180;HAGEN&amp;#180;, &amp;#180;INGENIEUR&amp;#180;, 5000 , 3 ) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      COMMIT 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+         
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      START TRANSACTION 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      UPDATE ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SET GEHALT = GEHALT + 500 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE ANGNR = 200 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      COMMIT 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      START TRANSACTION 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      UPDATE ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SET GEHALT = GEHALT  + 500 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE ANGNR = 201 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ROLLBACK 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      START TRANSACTION 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      UPDATE ANGEST 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SET GEHALT = GEHALT  + 500 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE ANGNR = 202 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ... Fehler, Stromausfall 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die DB wird wieder hochgefahren. Welche Geh&amp;#228;lter haben die Angestellten 
+      mit den  Angestelltennummern  200,  201  und  202?  Sind  alle 
+      Transaktionen  verloren gegangen? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Angestellter 200 hat am Ende ein Gehalt von 5500 &amp;#8364;. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Angestellter 201 hat am Ende immer noch ein Gehalt von 5000 &amp;#8364;. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Angestellter 202 hat am Ende immer noch ein Gehalt von 5000 &amp;#8364; 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Allerdings wird die Applikation im Falle des Stromausfalls auf das nicht 
+      durchgef&amp;#252;hrte  COMMIT  aufmerksam  und  kann  z.B.  sp&amp;#228;ter  versuchen,  
+      die  Transaktion doch noch durchzuf&amp;#252;hren.  Aufgrund  der  
+      Dauerhaftigkeitseigenschaft  von  Transaktionen  (Durability,  das &amp;#8222;D&amp;#8220; 
+      von ACID) sind die Ergebnisse aller abgeschlossenen Transaktionen bestehen 
+      geblieben. Die letzte Transaktion wurde nicht mit COMMIT abgeschlossen, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      befindet sich in einem Zwischenzustand, darf daher nicht sichtbar sein 
+      und muss von der Applikation wiederholt werden.  
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>348</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wogegen (im ACID) verstossen folgende Transaktionen?
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      START TRANSACTION
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      DELETE FROM ANGEST
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE ANGNR=117
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      COMMIT
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      DELETE FROM PROJEKT
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE P_LEITER=117
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      COMMIT
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      DELETE FROM ANG_PRO
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      WHERE ANGNR=117
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      COMMIT
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      K&amp;#246;nnte man die Reihenfolge tauschen, so dass die konsistenz erf&amp;#252;llt 
+      bleibt?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die Consistency ist nicht erf&amp;#252;llt, da z.B. nach der ersten Trans. in 
+      Tabelle Projekt eine LeiterID vergeben ist, die nicht mehr existiert.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Man kann die 3. Transaktion zuerst ausf&amp;#252;hren, dann die 2.. Diese beiden 
+      speichern die Fremdschl&amp;#252;ssel.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>349</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Cursor (in Bezug zu Datenbanken)?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Einen Cursor kann man sich vorstellen als einen Zeiger, mit dem die Er-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      gebnisrelation einer Abfrage Tupel f&amp;#252;r Tupel durchlaufen werden kann.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+</flashcards>
