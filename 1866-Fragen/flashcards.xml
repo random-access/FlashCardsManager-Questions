@@ -1858,4 +1858,3037 @@
 		<custom_width_question>450</custom_width_question>
 		<custom_width_answer>450</custom_width_answer>
 	</flashcard>
+	<flashcard>
+		<card_id>409</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche zwei Verschl&amp;#252;sselungsarten gibt es?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Man unterscheidet zwischen &lt;b&gt;Leitungsverschl&amp;#252;sselung&lt;/b&gt;, bei der 
+      zwischen je 2 Computern verschl&amp;#252;sselt wird und  &lt;b&gt;nde-zu-Ende-Verschl&amp;#252;sselung&lt;/b&gt;, 
+      bei dem der Absender verschl&amp;#252;sselt und erst der Empf&amp;#228;nger wieder entschl&amp;#252;sselt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beispiel Leitungsverschl&amp;#252;sselung:&lt;b&gt; &lt;i&gt;HTTPS&lt;/i&gt;&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beispiel Ende-zu-Ende-Verschl&amp;#252;sselung: &lt;b&gt;&lt;i&gt;PGP&lt;/i&gt;&lt;/b&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>410</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nach welchen 3 Kriterien kann man Verschl&amp;#252;sselungsverfahren 
+      klassifizieren?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Verschl&amp;#252;sselungsoperationen:&lt;/b&gt; (Kombi aus) &lt;b&gt;&lt;i&gt;Substitution&lt;/i&gt;&lt;/b&gt; 
+      (Ersetzung) und &lt;b&gt;&lt;i&gt;Transposition&lt;/i&gt;&lt;/b&gt; (Umordnung)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Anzahl der Schl&amp;#252;ssel:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; &lt;b&gt;&lt;i&gt;Symmetrische Verschl&amp;#252;sselung (Private-Key-Verfahren):&lt;/i&gt;&lt;/b&gt; 
+      1 Schl&amp;#252;ssel (secret key)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; &lt;b&gt;&lt;i&gt;Asymmetrische Verschl&amp;#252;sselung (Public-Key-Verfahren):&lt;/i&gt;&lt;/b&gt; 
+      2 Schl&amp;#252;ssel (public key und private key)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; &lt;b&gt;&lt;i&gt;Hybride Verschl&amp;#252;sselungsverfahren:&lt;/i&gt;&lt;/b&gt; 
+      Asymmetrische Verschl&amp;#252;sselung zum Schl&amp;#252;sselaustausch, Nach-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      richt wird symmetrisch verschl&amp;#252;sselt
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Verarbeitung des Klartextes:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; &lt;b&gt;&lt;i&gt;Blockverschl&amp;#252;sselung:&lt;/i&gt;&lt;/b&gt; Einteilung des Textes 
+      in Bl&amp;#246;cke fixer Gr&amp;#246;&amp;#223;e, blockweise Verschl&amp;#252;sselung, Auff&amp;#252;llen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      des letzten Blockes durch bestimmte Zeichen (padding)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; &lt;b&gt;&lt;i&gt;Stromverschl&amp;#252;sselung:&lt;/i&gt;&lt;/b&gt; zeichenweise 
+      Verschl&amp;#252;sselung, auch Online-Algorithmus genannt, kein padding
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      n&amp;#246;tig
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>411</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche 3 Schutzziele gibt es bei der &lt;b&gt;Hardware-Sicherheit&lt;/b&gt;? Nenne 
+      pro Schutzziel 2 Schutzma&amp;#223;nahmen!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Geb&amp;#228;ude:&lt;/b&gt; Bauwerk vor Brandgefahr, Blitz, 
+      Vandalismus, etc., Versorgungsleitungen vor Strom-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ausf&amp;#228;llen, Netzst&amp;#246;rungen, etc. sichern.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;R&amp;#228;ume:&lt;/b&gt; Server- und Datentr&amp;#228;gerr&amp;#228;ume nicht frei 
+      zug&amp;#228;nglich machen, ggf. auch Zutrittskontrollen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      f&amp;#252;r B&amp;#252;ror&amp;#228;ume.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Computer &lt;/b&gt;: abschlie&amp;#223;bares Geh&amp;#228;use, Schutz vor Wasser, etc.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>412</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 5 Schutzmechanismen vom Betriebssystem!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.) Benutzerkennungen 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.) Rollenvergabe (Admin, normaler User,...), 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.) Zugriffsrechte (Dateiberechtigungen),
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      4.) Speicherschutz (Hauptspeicher)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      5.) kein direkter Hardwarezugriff (System- und Benutzermodus)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>413</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe das Prinzip der &lt;b&gt;symmetrischen / Secret-Key-Verschl&amp;#252;sselung&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Verschl&amp;#252;sselung und Entschl&amp;#252;sselung werden mit demselben Schl&amp;#252;ssel 
+      durchgef&amp;#252;hrt, der vorab ausgetauscht werden muss.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>414</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktionieren &lt;b&gt;C&amp;#228;sar-Chiffre&lt;/b&gt; und &lt;b&gt;ROT-13&lt;/b&gt;? Wie kann 
+      man diese Verschl&amp;#252;sselungsverfahren knacken?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;C&amp;#228;sar-Chiffre:&lt;/b&gt; Verschiebung um 3 Buchstaben (a = d, b = 
+      e,...) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;ROT-13:&lt;/b&gt; Verschiebung um 13 Buchstaben. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Andere Verschiebel&amp;#228;ngen, Verschiebung von allen Zeichen (1 Byte = 0-255).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Enschl&amp;#252;sselung mittels Buchstabenh&amp;#228;ufigkeitsanalyse m&amp;#246;glich, da 
+      Klartextzeichen immer auf dasselbe Zeichen abgebildet wird.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>415</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+       Beschreibe das Prinzip von &lt;b&gt;monoalphabetischen Chiffren&lt;/b&gt;. Wie 
+      k&amp;#246;nnen diese geknackt werden?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Monoalphabetische Chiffre: &lt;/b&gt;Ersetzungstabelle, Reihenfolge der 
+      Ersetzungszeichen variabel.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Entschl&amp;#252;sselung mittels Buchstabenh&amp;#228;ufigkeitsanalyse sowie Analyse von 
+      Buchstabenfolgen (ch, ck,...) m&amp;#246;glich.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>416</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe das Prinzip von &lt;b&gt;polyalphabetischen Chiffren&lt;/b&gt; und nenne 
+      2 Beispiele! Wie k&amp;#246;nnen diese geknackt werden?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Polyalphabetische Chiffre: &lt;/b&gt;Ein Klartextzeichen wird durch 
+      unterschiedliche Zeichen ersetzt. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Beispiele:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; &lt;b&gt;&lt;i&gt;Vigen&amp;#232;re-Chiffre:&lt;/i&gt;&lt;/b&gt; Schl&amp;#252;sselwort, jeder 
+      Buchstabe als Zahl interpretiert und auf Buchstabencode von Klartext 
+      addiert.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; &lt;b&gt;&lt;i&gt;Enigma: &lt;/i&gt;&lt;/b&gt;Elektromechanische Vorrichtung aus Walzen, 
+      welche Zeichenersetzung vornimmt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Entschl&amp;#252;sselung:&lt;/b&gt; L&amp;#228;nge des Schl&amp;#252;ssels ermitteln, danach 
+      k&amp;#246;nnen H&amp;#228;ufigkeitsanalysen von C&amp;#228;sar-Chiffre angewendet 
+      werden.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>417</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was versteht man unter &lt;b&gt;Transpositionsverschl&amp;#252;sselung&lt;/b&gt;? 
+      Wieviele Transpositionen gibt es bei einer Zeichenfolge der L&amp;#228;nge n?
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie helfen Matrizen bei der Ver- / Entschl&amp;#252;sselung?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Transpositionsverschl&amp;#252;sselung:&lt;/b&gt; Vertauschung der 
+      Buchstabenreihenfolge (Permutation). 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Es gibt &lt;b&gt;n! Permutationen&lt;/b&gt; einer Zeichenfolge der L&amp;#228;nge n.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Matrizen als Hilfsmittel:&lt;/b&gt; Text zeilenweise aufschreiben, 
+      Geheimtext ist spaltenweise Ausgabe. Verbesserung des Verfahrens: 
+      zus&amp;#228;tzlich Matrixspalten tauschen, bevor man Geheimtext ausgibt.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>418</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Auf welchen 2 Grundoperationen basieren moderne 
+      Verschl&amp;#252;sselungsverfahren? Wie werden diese realisiert?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Ersetzen:&lt;/b&gt; Durch XOR realisiert, da f&amp;#252;r alle a, b gilt: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ((a &amp;#8853; b) &amp;#8853; b) = a
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Vertauschen: &lt;/b&gt;direkte Hardwareunterst&amp;#252;tzung, durch 
+      circular shift (zirkul&amp;#228;res Verschieben) um die halbe L&amp;#228;nge 
+      vertauscht man 2 H&amp;#228;lften einer Zeichensequenz miteinander.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>419</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktioniert das &lt;b&gt;Feistel-Verfahren&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>420</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nach welchen f&amp;#252;nf Parametern k&amp;#246;nnen &lt;b&gt;Blockverschl&amp;#252;sselungsverfahren&lt;/b&gt; 
+      klassifiziert werden?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.) Verschl&amp;#252;sselungsfunktion
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.) Schl&amp;#252;ssell&amp;#228;nge
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.) Teilschl&amp;#252;ssell&amp;#228;nge
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      4.) Rundenanzahl
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      5.) Blockgr&amp;#246;&amp;#223;e
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>421</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was f&amp;#252;r ein Verschl&amp;#252;sselungsverfahren ist &lt;b&gt;DES&lt;/b&gt;? Beschreibe 
+      die Parameter. Welche Schwachstelle hat DES?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;DES:&lt;/b&gt; symmetrische Blockverschl&amp;#252;sselung. Im Wesentlichen ein 
+      Feistel-Verfahren, vom NIST als Standardverfahren f&amp;#252;r US-Beh&amp;#246;rden 
+      definiert.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Parameter:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Funktion F&lt;/b&gt;: Kombination aus XOR und festen 
+      Ersetzungsboxen (Substitution-Box, S-Box)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226;&lt;b&gt; Teilschl&amp;#252;ssel:&lt;/b&gt; Erzeugung von Teilschl&amp;#252;sseln der 
+      L&amp;#228;nge 48 Bit durch Shift und Permutation
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Runden: &lt;/b&gt;16
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Blockgr&amp;#246;&amp;#223;e:&lt;/b&gt; 64 Bit
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Schl&amp;#252;ssell&amp;#228;nge:&lt;/b&gt; 56 Bit
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Schwachpunkt:&lt;/b&gt; Kurze Schl&amp;#252;ssell&amp;#228;nge &amp;#8594; Triple-DES: Verfahren wird 
+      mit verschiedenen Schl&amp;#252;sseln mehrmals hintereinander durchgef&amp;#252;hrt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      (&amp;quot;Double-DES&amp;quot; bringt nicht wesentlich mehr Sicherheit als DES, da eine 
+      Meet-In-The-Middle-Attacke m&amp;#246;glich ist).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>422</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was f&amp;#252;r ein Verschl&amp;#252;sselungsverfahren ist &lt;b&gt;Blowfish&lt;/b&gt;? 
+      Beschreibe die Parameter. Wie hei&amp;#223;t der Nachfolger von Blowfish?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Blowfish:&lt;/b&gt; von Bruce Schneier entwickelt. Symmetrische 
+      Blockverschl&amp;#252;sselung, basiert auf dem Feistel-Verfahren, aber beide 
+      H&amp;#228;lften des Wortes werden bei jeder Runde ver&amp;#228;ndert. 
+      Verschl&amp;#252;sselung in 2 Phasen, zuerst werden Teilschl&amp;#252;ssel und Inhalt der 
+      S-Boxen berechnet, dann wird Klartext verschl&amp;#252;sselt. In OpenVPN 
+      voreingestellt. Nachfolger: Twofish.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Parameter:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Funktion F:&lt;/b&gt; Kombination aus XOR, Ganzzahladdition mod 
+      2^32 und S-Boxen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Teilschl&amp;#252;ssel:&lt;/b&gt; 18 Teilschl&amp;#252;ssel der L&amp;#228;nge 32 werden 
+      ausgehend von Initialwerten durch Verkn&amp;#252;pfung mit dem Schl&amp;#252;ssel und 
+      Anwendung des Algorithmus auf sich selbst generiert
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Runden:&lt;/b&gt; 16
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Blockgr&amp;#246;&amp;#223;e&lt;/b&gt;: 64 Bit
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Schl&amp;#252;ssell&amp;#228;nge:&lt;/b&gt; 32...448 Bit (1...14 W&amp;#246;rter der 
+      L&amp;#228;nge 32 Bit)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>423</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was f&amp;#252;r ein Verschl&amp;#252;sselungsverfahren ist&lt;b&gt; Cast-128&lt;/b&gt;? 
+      Beschreibe die Parameter. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;CAST-128&lt;/b&gt;: (Carlisle Adams, Stafford Tavares) In GnuPG 
+      voreingestellt als symmetrischer Algorithmus.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Parameter:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Funktion F: &lt;/b&gt;Kombination aus einfacher Arithmetik (+, &amp;#8722;, 
+      &amp;#8853;), zirkul&amp;#228;ren Shifts und fest definierten S-Boxen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Teilschl&amp;#252;ssel:&lt;/b&gt; Aus dem Schl&amp;#252;ssel mit Hilfe 
+      spezieller S-Boxen generiert
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Runden:&lt;/b&gt; 16
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Blockgr&amp;#246;&amp;#223;e:&lt;/b&gt; 64 Bit
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Schl&amp;#252;ssell&amp;#228;nge:&lt;/b&gt; 128 Bit
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>424</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 3 Verschl&amp;#252;sselungsverfahren, die auf dem Feistel-Prinzip beruhen!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.) DES
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.) Blowfish
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.) Cast-128
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>425</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was f&amp;#252;r ein Verschl&amp;#252;sselungsverfahren ist &lt;b&gt;AES&lt;/b&gt;? 
+      Beschreibe die Parameter.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      AES ist ein symmetrisches Blockverschl&amp;#252;sselungsverfahren. Es wurde bei 
+      der Ausschreibung des NIST (National Institute of Standards and 
+      Technology) 1997 als neues Standardverfahren ausgew&amp;#228;hlt (Variante von 
+      Rijndal).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226;&lt;b&gt; Funktion F: &lt;/b&gt;Block wird als Matrix mit 4 Zeilen 
+      betrachtet, 1 Byte pro Eintrag. Enth&amp;#228;lt &lt;b&gt;&lt;i&gt;3 Arten von Operationen:&lt;/i&gt;&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;1. Linear-Mixing-Layer:&lt;/i&gt;&lt;/b&gt; gro&amp;#223;e Diffusion der Werte &amp;#252;ber 
+      mehrere Runden
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594; Shift-Row-Transformation, Mix-Column-Transformation
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;2. Nonlinear-Layer:&lt;/i&gt;&lt;/b&gt; nicht-lineare Ersetzungen, durch 
+      S-Boxen realisiert
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594;ByteSub-Transformation
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;3. Key-Addition-Layer:&lt;/i&gt;&lt;/b&gt; Rundenschl&amp;#252;ssel wird mit Block 
+      XOR-verkn&amp;#252;pft
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594; Add-Round-Key-Transformation.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Teilschl&amp;#252;ssel:&lt;/b&gt; Werden aus Schl&amp;#252;ssel durch &lt;b&gt;&lt;i&gt;Schl&amp;#252;sselexpansion&lt;/i&gt;&lt;/b&gt; 
+      berechnet: Schl&amp;#252;ssel wird an Anfang eines langen Arrays 
+      geschrieben, die folgenden Felder werden aus fest vorgegebenem 
+      Algorithmus gef&amp;#252;llt, die Werte ergeben sich aus den Inhalten der 
+      vorherigen Array-Elemente. Rundenschl&amp;#252;ssel sind Teile vom Array.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Runden:&lt;/b&gt; 10-14
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Blockgr&amp;#246;&amp;#223;e:&lt;/b&gt; 128 / 192 /256 Bit
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Schl&amp;#252;ssell&amp;#228;nge:&lt;/b&gt; mindestens 128 Bit
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>426</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe das Verschl&amp;#252;sseln mit einem &lt;b&gt;One-Time-Pad&lt;/b&gt;. Welche 
+      Kriterien m&amp;#252;ssen erf&amp;#252;llt sein, damit das Verfahren absolut sicher ist?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Geheimtext = Klartext &amp;#8853; Schl&amp;#252;ssel &amp;#8594; Klartext = Geheimtext &amp;#8853; Schl&amp;#252;ssel
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;Verfahren absolut sicher wenn&lt;/i&gt;&lt;/b&gt;:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Schl&amp;#252;ssel gleich lang wie Klartext
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Schl&amp;#252;ssel muss absolut zuf&amp;#228;llig gew&amp;#228;hlt werden
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Jeder Schl&amp;#252;ssel darf nur ein einziges Mal benutzt werden
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Schl&amp;#252;ssel muss geheim bleiben
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Unpraktisch, wird aber z.B. beim Roten Telefon USA - Russland verwendet.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>427</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 3 Verschl&amp;#252;sselungsmodi!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.) Electronic Code Book (ECB)-Modus
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.) Cipher-Block-Chaining (CBC)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.) Counter Mode
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>428</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe den &lt;b&gt;Electronic Code Book (ECB)-Modus&lt;/b&gt;! Welchen Nachteil 
+      hat dieser Verschl&amp;#252;sselungsmodus?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Modus, bei dem aus einem Klartextblock immer derselbe Ge-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      heimtextblock wird. Alle obigen Verfahren sind auf Blockebene 
+      deterministisch.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Problem: Replay-Angriff:&lt;/b&gt; Angreifer bringt Sender A dazu, zweimal 
+      dieselbe Nachricht N zu verschl&amp;#252;sseln
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      und an Empf&amp;#228;nger B zu senden. Durch Mitprotokollieren erkennt man N , da 
+      N auch verschl&amp;#252;sselt doppelt
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      vorkommt und kann N sp&amp;#228;ter selbst an B senden und B glauben lassen, N 
+      k&amp;#228;me von A.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>429</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktioniert &lt;b&gt;Cypher-Block-Chaining (CBC)&lt;/b&gt;? Welchen Nachteil 
+      hat dieser Verschl&amp;#252;sselungsmodus?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Jeder Klartextblock wird mit dem vorhergehenden Geheimtextblock mit XOR 
+      verkn&amp;#252;pft. Der erste Block wird vor der Verschl&amp;#252;sselung mit einem beliebigen, 
+      zuf&amp;#228;llig gew&amp;#228;hlten und nicht vorhersagbaren Initialisierungsvektor IV 
+      verkn&amp;#252;pft. IV wird dabei z.B. im ECB-Modus vorab an den Empf&amp;#228;nger 
+      &amp;#252;bertragen. Bei der Entschl&amp;#252;sselung wird jeder Block mit dem vorherigen 
+      verschl&amp;#252;sselten Block XOR-verkn&amp;#252;pft, der erste Block mit IV . Damit ist 
+      eine Nachricht auf Blockebene nicht mehr deterministrisch, sondern nur 
+      mehr auf Nachrichtenebene (??). 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Nachteil:&lt;/b&gt; Bl&amp;#246;cke k&amp;#246;nnen nicht parallel verschl&amp;#252;sselt 
+      werden, daher langsam. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>430</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktioniert der &lt;b&gt;Counter Mode&lt;/b&gt;? Warum wird der initiale Wert 
+      unverschl&amp;#252;sselt &amp;#252;bertragen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Alternative zu CBC. Klartextbl&amp;#246;cke k&amp;#246;nnen parallel verschl&amp;#252;sselt werden. 
+      Idee basiert auf One-Time-Pad. Ein zuf&amp;#228;llig gew&amp;#228;hlter Z&amp;#228;hler Ct_1 wird 
+      mit dem Schl&amp;#252;ssel verschl&amp;#252;sselt und dann mit XOR mit dem 
+      Klartextblock verkn&amp;#252;pft. F&amp;#252;r den n&amp;#228;chsten Klartextblock wird Ct_i 
+      jeweils inkrementiert. Blockl&amp;#228;nge n Bit &amp;#8594; Z&amp;#228;hler aus [0, ..., 2 n &amp;#8722; 
+      1]. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      n &amp;#8805; 128, um gen&amp;#252;gend verschiedene Werte zu haben. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;Message nonce&lt;/i&gt;&lt;/b&gt; (Zufallswert f&amp;#252;r die ersten 64 Bit, speziell 
+      f&amp;#252;r die jeweilige Nachricht erzeugt, nur die hinteren
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Bits werden hochgez&amp;#228;hlt), um gleiche Z&amp;#228;hler zu vermeiden.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ct_1 wird unverschl&amp;#252;sselt vor dem ersten Geheim-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      textblock &amp;#252;bertragen, da sonst Entschl&amp;#252;sselung des ersten Blocks sofort 
+      m&amp;#246;glich (Ct_1 &amp;#8853; 1. Block).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>431</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Erkl&amp;#228;re das Prinzip der &lt;b&gt;asymmetrischen / 
+      Public-Key-Verschl&amp;#252;sselung&lt;/b&gt;! Welche Kriterien m&amp;#252;ssen erf&amp;#252;llt 
+      sein, damit ein asymmetrisches Verschl&amp;#252;sselungsverfahren sicher ist? 
+      Wann kann man damit auch Dokumente elektronisch signieren?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2 Schl&amp;#252;ssel pro Teilnehmer: &amp;#246;ffentlicher Schl&amp;#252;ssel (public key) zum 
+      Verschl&amp;#252;sseln, der ver&amp;#246;ffentlicht wird und privater Schl&amp;#252;ssel (private 
+      key) zum Entschl&amp;#252;sseln, der geheim gehalten wird. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Folgende&lt;b&gt; Bedingungen &lt;/b&gt;m&amp;#252;ssen erf&amp;#252;llt sein:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1. Ableiten des privaten Schl&amp;#252;ssels aus dem &amp;#246;ffentlichen Schl&amp;#252;ssel nicht 
+      oder nur mit h&amp;#246;herem Zeitaufwand,
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      als privater Schl&amp;#252;ssel / Daten vertraulich bleiben m&amp;#252;ssen, m&amp;#246;glich.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2. Nachrichten k&amp;#246;nnen nicht nur mit &amp;#246;ffentlichem Schl&amp;#252;ssel entschl&amp;#252;sselt 
+      werden, bzw. Aufwand genauso gro&amp;#223;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      wie Ausprobieren aller m&amp;#246;glichen privaten Schl&amp;#252;ssel.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Es gilt immer DeCrypt_d (Crypt_e (m)) = m. Wenn auch Crypt_e (DeCrypt_d 
+      (m)) = m (also wenn Menge der m&amp;#246;glichen Klartexte gleich der Menge der 
+      m&amp;#246;glichen Geheimtexte), ist auch &lt;b&gt;Signieren&lt;/b&gt; von Nachrichten 
+      mit dem betreffenden Algorithmus m&amp;#246;glich.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>432</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Art von Verschl&amp;#252;sselungsverfahren ist&lt;b&gt; RSA&lt;/b&gt;? Beschreibe 
+      die Schl&amp;#252;sselerzeugung, das Verschl&amp;#252;sseln und das Entschl&amp;#252;sseln. Kann 
+      man mit RSA auch Signaturen erzeugen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      RSA ist ein asymmetrisches Verschl&amp;#252;sselungsverfahren, entwickelt von 
+      Rivest, Shamir und Adleman.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Schl&amp;#252;sselerzeugung:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - W&amp;#228;hle zwei gro&amp;#223;e Primzahlen p und q. Berechne n = p &amp;#183; q.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - W&amp;#228;hle e teilerfremd zu (p &amp;#8722; 1) &amp;#183; (q &amp;#8722; 1) &amp;#8594; &amp;#246;ffentlicher Schl&amp;#252;ssel: (e, 
+      n)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - W&amp;#228;hle d so, dass e &amp;#183; d mod (p &amp;#8722; 1) &amp;#183; (q &amp;#8722; 1) = 1 &amp;#8594; privater Schl&amp;#252;ssel: 
+      (d, n)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Verschl&amp;#252;sseln:&lt;/b&gt; Crypt e (m) = m^e mod n
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Entschl&amp;#252;sseln:&lt;/b&gt; DeCrypt d (c) = c^d mod n
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nachrichten k&amp;#246;nnen nur verschl&amp;#252;sselt werden, wenn sie kleiner als n 
+      sind, gr&amp;#246;&amp;#223;ere Nachrichten werden daher in
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Bl&amp;#246;cke zerlegt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Da die Multiplikation kommutativ ist, ist das&lt;b&gt; Signieren&lt;/b&gt; ebenfalls 
+      m&amp;#246;glich.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>433</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Art von Verschl&amp;#252;sselungsverfahren ist&lt;b&gt; El-Gamal&lt;/b&gt;? 
+      Beschreibe die Schl&amp;#252;sselerzeugung, das Verschl&amp;#252;sseln und das 
+      Entschl&amp;#252;sseln.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      El-Gamal ist ein &lt;b&gt;asymmetrisches Verschl&amp;#252;sselungsverfahren&lt;/b&gt;, 
+      das auf der Schwierigkeit der Berechnung von diskreten Logarithmen &amp;#252;ber 
+      endlichen K&amp;#246;rpern beruht.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Endlicher K&amp;#246;rper : &lt;/b&gt;K&amp;#246;rper mit endlich vielen Elementen, z.B. 
+      Z_p = {0, 1, ..., p &amp;#8722; 1}
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Diskreter Logarithmus von y zur Basis g&lt;/b&gt;: Kleinste Zahl x, f&amp;#252;r die 
+      gilt: y = g^x mod p.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Primitiv modulo p:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Zahlen g, bei denen es zu jedem y ein x gibt, sodass 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      g^x mod p = y.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Schl&amp;#252;sselerzeugung:&lt;/b&gt; &amp;#214;ffentlicher Schl&amp;#252;ssel: (g, y), 
+      privater Schl&amp;#252;ssel: x, sodass y = g^x mod p
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Verschl&amp;#252;sseln:&lt;/b&gt; W&amp;#228;hle k, sodass 0 &amp;#8804; k &amp;#8804; p &amp;#8722; 1. 
+      Berechne zur Nachricht M zwei Zahlen a = g^k mod p
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      und b = y^k &amp;#183; M mod p.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Entschl&amp;#252;sseln&lt;/b&gt;: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      b / a^x = y^k * M / a^x = g^(x*k) * M / g^(x*k) = M
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>434</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was f&amp;#252;r ein Verfahren ist das Verfahren nach &lt;b&gt;Diffie-Hellman&lt;/b&gt;? 
+      Beschreibe die Funktionsweise!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Kein Public-Key-Verfahren, sondern ein &lt;b&gt;Schl&amp;#252;sselaustauschverfahren.
+&lt;/b&gt;    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Schl&amp;#252;sselerstellung: &lt;/b&gt;W&amp;#228;hle eine gro&amp;#223;e Primzahl p und 
+      eine Zahl g, die primitiv modulo p ist (&amp;#246;ffentlich bekannt). Der 
+      Sender A w&amp;#228;hlt zuf&amp;#228;llig a_x und schickt a_y = g^a_x mod p an den 
+      Empf&amp;#228;nger B. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      B w&amp;#228;hlt zuf&amp;#228;llig b_x und schickt b_y = g^b_x mod p an A.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Gemeinsamer Schl&amp;#252;ssel&lt;/b&gt;: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      b_y^a_x = (g^b_x )^a_x = g^(b_x &amp;#183;a_x ) = g^(a_x &amp;#183;b_x ) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      = (g^a_x )^b_x = a_y^b_x
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>435</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche &lt;b&gt;Schwachstellen&lt;/b&gt; hat &lt;b&gt;RSA&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Sicherheit beruht darauf, dass kein schneller Algorithmus zur 
+      Faktorisierung gro&amp;#223;er Zahlen bekannt ist, das kann sich aber &amp;#228;ndern.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; RSA ist langsam, wird dh oft zur &amp;#220;bertragung eines Session Keys 
+      benutzt mit dem die eigentliche Kommunikation stattfindet. Ist dieser zu 
+      kurz, kann man durch Ausprobieren Session Key herausfinden.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Gefahr eines MITM-Angriffs (Man-in-the-middle) &amp;#8594; es muss &amp;#252;berpr&amp;#252;fbar 
+      sein, ob &amp;#246;ffentlicher Schl&amp;#252;ssel wirklich zu bestimmter Person 
+      geh&amp;#246;rt (z.B. durch Einf&amp;#252;hrung eines Trustcenter)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>436</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche&lt;b&gt; Schwachstelle &lt;/b&gt;hat das &lt;b&gt;Diffie-Hellman&lt;/b&gt;- 
+      Schl&amp;#252;sselaustauschverfahren? Welche Modifikationen kann man vornehmen, 
+      um das Verfahren sicherer zu machen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Anf&amp;#228;llig gegen MITM-Attacken, da der Kommunikationspartner nicht 
+      authentisiert wird.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594; &lt;b&gt;AuthentisiertesDiffie-Hellman&lt;/b&gt;: A und B kennen ein 
+      gemeinsames Geheimnis gg. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Vorteil gegen&amp;#252;ber dem Verwenden von gg als symmetrischer Schl&amp;#252;ssel: 
+      bereits gesendete Nachrichten k&amp;#246;nnen nicht vom Angreifer entschl&amp;#252;sselt 
+      werden, wenn er gg kennt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594; Wenn A und B &lt;b&gt;asymmetrisches Schl&amp;#252;sselpaar besitzen&lt;/b&gt;, 
+      k&amp;#246;nnen sie ihre Nachrichten w&amp;#228;hrend des Schl&amp;#252;sselaustauschs digital 
+      signieren, bzw. sie k&amp;#246;nnen die Nachrichten mit dem &amp;#246;ffentlichen 
+      Schl&amp;#252;ssel des jeweils anderen verschl&amp;#252;sseln.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>437</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist eine &lt;b&gt;Hashfunktion&lt;/b&gt;? Welche 2 Eigenschaften sollte sie 
+      idealerweise haben?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine &lt;b&gt;Hashfunktion&lt;/b&gt; ist eine Abbildung, die Elemente einer gro&amp;#223;en 
+      Ursprungsmenge auf Elemente einer kleineren Zielmenge abbildet. 
+      Hashfunktionen wurden zum Wiederauffinden von Datens&amp;#228;tzen konzipiert. 
+      Sie berechnen die Adresse eines Datensatzes aus dem Datensatz selbst.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Eigenschaften einer guten Hashfunktion:
+&lt;/b&gt;    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Schnelle und einfache Berechnung
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Gute Streuung im Bereich der Zielmenge
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>438</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein &lt;b&gt;Message Digest&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Eine &lt;b&gt;Kryptografische Pr&amp;#252;fsumme (Message Digest)&lt;/b&gt; ist eine 
+      Hashfunktion, die zur &amp;#220;berpr&amp;#252;fung der Authentizit&amp;#228;t einer Nachricht 
+      dient. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Dazu wird zu einer Nachricht M ein Fingerabdruck H(M ) fester L&amp;#228;nge berechnet 
+      und zusammen mit der Nachricht verschickt. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Zur &amp;#220;berpr&amp;#252;fung wendet der Empf&amp;#228;nger dieselbe Funktion auf die 
+      empfangene Nachricht M_0 an. Wenn gilt: H(M ) = H(M_0 ), dann wurde die 
+      Nachricht nicht ver&amp;#228;ndert.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>439</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 3 &lt;b&gt;Eigenschaften&lt;/b&gt;, die eine &lt;b&gt;kryptographische Hashfunktion&lt;/b&gt; 
+      haben muss!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Einwegfunktion:&lt;/b&gt; Zu einem gegebenen Hashwert h l&amp;#228;sst sich 
+      keine Nachricht M finden mit H(M ) = h
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594; gen&amp;#252;gend gro&amp;#223;e Zielmenge, dzt. mindestens 200 Bit breiter Wertebereich.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Schwache Kollisionsresistenz&lt;/b&gt;: Zu einer gegebenen 
+      Nachricht M 1 findet man keine Nachricht M 2 mit H(M 1 ) = H(M 2 )
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594; Jedes Bit der Nachricht muss in die Berechnung der Hashfunktion mit 
+      einflie&amp;#223;en
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Starke Kollisionsresistenz&lt;/b&gt;: Man findet keine zwei 
+      verschiedenen Nachrichten M 1 und M 2 mit H(M 1 ) = H(M 2 )
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>440</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was f&amp;#252;r ein Verfahren ist&lt;b&gt; MD5 &lt;/b&gt;und wie funktioniert es? Was 
+      ist die maximale Nachrichtenl&amp;#228;nge? Wie funktioniert das padding? Wie 
+      sicher ist MD5?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      MD5 ist ein &lt;b&gt;Hashverfahren&lt;/b&gt;. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - &lt;b&gt;Maximale Nachrichtenl&amp;#228;nge&lt;/b&gt;: knapp unter 2^64 Bit. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -&lt;b&gt; Auff&amp;#252;llen / padding&lt;/b&gt;: Anh&amp;#228;ngen von einem 1-Bit und sovielen 
+      0-Bits an die Nachricht N , dass deren L&amp;#228;nge, dividiert durch 512, 
+      einen Rest von 448 Bit ergibt. Dahinter wird die L&amp;#228;nge der 
+      Originalnachricht als 64-Bit-Bin&amp;#228;rzahl angeh&amp;#228;ngt, sodass die Gesamtl&amp;#228;nge 
+      in Bit restlos durch 512 teilbar ist.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      MD5-Prinzip, auch &lt;b&gt;Merkle-Damgard-Konstruktion&lt;/b&gt; genannt (s. 
+      Abbildung).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Parameter:
+&lt;/b&gt;    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;IV: &lt;/b&gt;128 Bit breiter Puffer, der mit fest vorgegebenen 
+      Werten initialisiert wird
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Funktion F: &lt;/b&gt;bestehend aus 4 hintereinander ausgef&amp;#252;hrten 
+      Runden mit je 16 Schritten. Operationen:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8743;, &amp;#8744;, &amp;#172;, &amp;#8853; und Addieren von Zusatzwerten aus Tabelle.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Nachricht:&lt;/b&gt; wird in Bl&amp;#246;cken von 512 Bit verarbeitet&lt;b&gt;
+&lt;/b&gt;    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;
+&lt;/b&gt;    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      MD5 ist &lt;b&gt;nicht mehr sicher&lt;/b&gt;, Kollisionserzeugung sowie 
+      Zertifikatsf&amp;#228;lschung m&amp;#246;glich!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>441</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was f&amp;#252;r ein Verfahren ist&lt;b&gt; SHA-1 &lt;/b&gt;und wie funktioniert es? Was 
+      ist die maximale Nachrichtenl&amp;#228;nge? Wie funktioniert das padding? Wie 
+      sicher ist SHA-1?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;SHA-1 &lt;/b&gt;ist ein vom NIST entwickeltes &lt;b&gt;Hashverfahren&lt;/b&gt;.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Maximale Nachrichtenl&amp;#228;nge: knapp unter 2^64 Bit.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Hashwert: 160 Bit.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Nachricht + Padding: Vielfaches von 512 Bit.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Berechnungsprinzip&lt;/b&gt; wie MD5, F besteht aus 4 Runden mit
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      je 20 Schritten.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;SHA-2-Familie&lt;/b&gt; (Varianten von SHA-1): SHA-224, SHA-256, SHA-384, 
+      SHA-512 (Namen enthalten Breite des
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Hashwertes).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Angriffsm&amp;#246;glichkeiten bekannt&lt;/b&gt;, aber noch kein Verfahren zur 
+      Kollisionserzeugung, man sollte jedoch wenn dann
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      SHA-2 verwenden.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>442</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Auf welchem Algorithmus beruht der neue Hash-Standard &lt;b&gt;SHA-3&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Auf dem Keccak-Algorithmus.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>443</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Erkl&amp;#228;re das Prinzip der Sponge-Construction bei Keccak!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Sponge Konstruktion: beliebig lange Eingaben werden in beliebig lange 
+      Ergebnisse umgerechnet.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Erkl&amp;#228;rung: &lt;/b&gt;Permutationsfunktion f, arbeitet auf c+r langem 
+      Bitvektor. Der innere Zustand ist ein Bitvektor, initialisiert mit 
+      Nullen. Die Bitrate r Gibt an, welche Blockgr&amp;#246;&amp;#223;e verarbeitet wird, je 
+      gr&amp;#246;&amp;#223;er r, desto schneller die Verarbeitung. Je gr&amp;#246;&amp;#223;er die 
+      Kapazit&amp;#228;t c, desto sicherer ist Keccak, es gibt keinen Angriff mit 
+      Komplexit&amp;#228;t &amp;lt; 2^(c/2) . Auff&amp;#252;llen durch Padding, falls die 
+      Nachricht kein Vielfaches von r Bit lang ist.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>444</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die&lt;b&gt; 2 Phasen&lt;/b&gt; beim &lt;b&gt;Keccak-Algorithmus&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Absorbing: &lt;/b&gt;r Bits der Eingabe werden mit den ersten r 
+      Bits des Zustands XOR-verkn&amp;#252;pft, das Ergebnis dient zusammen mit 
+      den hinteren c Bit als Eingabe f&amp;#252;r f, das Resultat ist der n&amp;#228;chste 
+      Zustand.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Squeezing: &lt;/b&gt;Erzeugen eines Ergebnisses der L&amp;#228;nge s. Die 
+      ersten r Bit des letzten Zustand werden ins Ergebnis kopiert. Ist s &amp;gt; r, 
+      wird f auf den Zustand angewendet und die ersten r Bits der Berechnung 
+      ins Ergebnis kopiert, so lange bis das Ergebnis lang genug ist. 
+      &amp;#220;berz&amp;#228;hlige Bits werden abgeschnitten.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>445</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die Parameter vom Keccak-Algorithmus!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Parameter von Keccak:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;7 Zustandsl&amp;#228;ngen c+r&lt;/b&gt;: 25 x 2 l , 0 &amp;#8804; l &amp;#8804; 6. Bl&amp;#246;cke 
+      werden als 3D-Array a[5][5][2 l ] betrachtet.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;7 Funktionen (1 pro Zustandsl&amp;#228;nge)&lt;/b&gt; definiert, 
+      arbeiten auf einem Bitstring der L&amp;#228;nge b (default: 1600) mit 
+      Bitrate r (default: 1024) unter Anwendung von 5 Operationen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Rundenanzahl&lt;/b&gt;: 12 + 2l.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Multi-Rate-Padding: pad10*1 &lt;/b&gt;(1, beliebig viele 0-en, 1) 
+      um Vielfaches von r zu erhalten.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Ausgabel&amp;#228;ngen:&lt;/b&gt; bei Keccak zu Bitrate und Kapazit&amp;#228;t 
+      verschieden definiert, so dass Kapazit&amp;#228;t doppelt so lang wie 
+      Ausgabel&amp;#228;nge ist (wegen Angriffskomplexit&amp;#228;t).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>446</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie kann man den &lt;b&gt;Keccak-Algorithmus&lt;/b&gt; dazu verwenden, einen &lt;b&gt;Schl&amp;#252;ssel 
+      f&amp;#252;r das One-Time-Pad&lt;/b&gt; zu erzeugen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Man kann auch umgekehrt aus einem kleinen Geheimnis als Eingabe eine 
+      gro&amp;#223;e Ausgabe erzeugen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>447</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welchen &lt;b&gt;Vorteil &lt;/b&gt;haben &lt;b&gt;Message Authentication Codes&lt;/b&gt; 
+      gegen&amp;#252;ber Hashes?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Da Hashfunktionen &amp;#246;ffentlich bekannt sind, kann ein Angreifer bei der 
+      Nachrichten&amp;#252;bertragung die Nachricht einfach ver&amp;#228;ndern und einen 
+      neuen passenden Hash dazu generieren.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       Ein Message Authentication Code (MAC) enth&amp;#228;lt daher neben dem Hash 
+      einer Nachricht eine geheime Zusatzinformation.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>448</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Wie werden MACs berechnet? &lt;/b&gt;Beschreibe die zwei im Kurstext 
+      erw&amp;#228;hnten Versionen!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Version 1:&lt;/b&gt; Sender verschl&amp;#252;sselt berechneten Hashwert, 
+      sendet Ergebnis und Nachricht an Empf&amp;#228;nger, der den Hash 
+      entschl&amp;#252;sselt und selbst nochmal berechnet. Sind beide gleich, wurde die 
+      Nachricht nicht ver&amp;#228;ndert, denn ein Angreifer kann zwar die Nachricht 
+      ver&amp;#228;ndern, nicht aber den Hash verschl&amp;#252;sseln.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Version 2: &lt;/b&gt;Eine geheime Zusatzinformation wird mit der 
+      Nachricht konkateniert, davon wird der Hash berechnet, dh. MAC(M) = 
+      H(Geheimnis | Nachricht). Empf&amp;#228;nger berechnet dasselbe u. vergleicht 
+      Hashes.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>449</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche &lt;b&gt;Angriffsm&amp;#246;glichkeit&lt;/b&gt; gibt es auf &lt;b&gt;MACs&lt;/b&gt;, die nach 
+      dem Merckle-Damgardt-Prinzip berechnet werden?
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Erweiterung schafft da Abhilfe?
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Warum ist die Erweiterung bei SHA-3 (Keccak) nicht n&amp;#246;tig?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Falls Hash nach Merkle-Damgard-Prinzip berechnet, &lt;b&gt;Erweiterungsangriffe 
+      &lt;/b&gt;(length extension attacks) m&amp;#246;glich: Bei Verl&amp;#228;ngerung der Nachricht 
+      kann man versuchen, den abgefangenen Hashwert als Eingabe f&amp;#252;r F zu 
+      nehmen und so den neuen Hash zu berechnen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594; Erweiterung: &lt;b&gt;HMAC-Standard&lt;/b&gt;: HMAC(M) = H (Geheimnis | 
+      H(Geheimnis | Nachricht)). 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Bei SHA-3&lt;/b&gt; ist Erweiterung nicht mehr erforderlich, da Keccak 
+      nicht nur Nachrichtenbl&amp;#246;cke als Eingabe nimmt sondern
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      auch Bits des inneren Zustands.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>450</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie wird eine &lt;b&gt;digitale Signatur&lt;/b&gt; erstellt? Welchen Vorteil hat das &lt;b&gt;Verwenden 
+      von asymmetrischen Schl&amp;#252;sseln&lt;/b&gt; gegen&amp;#252;ber dem Verwenden eines 
+      symmetrischen Schl&amp;#252;ssels?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die &lt;b&gt;digitale Signatur&lt;/b&gt; funktioniert wie Version 1 beim MAC, 
+      verwendet jedoch ein asymmetrisches Ver-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      schl&amp;#252;sselungssystem: zum Verschl&amp;#252;sseln des Hashes verwendet der Absender 
+      seinen eigenen privaten Schl&amp;#252;ssel,
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      zum Entschl&amp;#252;sseln nimmt der Empf&amp;#228;nger den zugeh&amp;#246;rigen &amp;#246;ffentlichen 
+      Schl&amp;#252;ssel. Man k&amp;#246;nnte auch die gesamte Nachricht statt dem Hash 
+      nehmen, nimmt aber aus Effizienzgr&amp;#252;nden den Hash.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Bei einem &lt;b&gt;symmetrischen Schl&amp;#252;ssel&lt;/b&gt; k&amp;#246;nnte der Sender 
+      abstreiten, die Nachricht gesendet zu haben, da der Empf&amp;#228;nger den Hash 
+      ebenfalls konstruieren kann.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>451</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 2 &lt;b&gt;Algorithmen&lt;/b&gt;, mit denen &lt;b&gt;digitale Signaturen&lt;/b&gt; 
+      erstellt werden k&amp;#246;nnen!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226;&lt;b&gt; RSA&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;DSS &lt;/b&gt;(Digital Signature Standard) in USA definiert, beruht 
+      auf El-Gamal, Algorithmus hei&amp;#223;t DSA, wird in PGP / GPG verwendet.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>452</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein&lt;b&gt; Zertifikat&lt;/b&gt;? 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche &lt;b&gt;Parameter&lt;/b&gt; beinhaltet es?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ein &lt;b&gt;Zertifikat&lt;/b&gt; ist das elektronische &amp;#196;quivalent zum 
+      Personalausweis. Es dient dazu, die Authentizit&amp;#228;t eines &amp;#246;ffentlichen 
+      Schl&amp;#252;ssels sicherzustellen. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die Zuordnung wird von einer vertrauensw&amp;#252;rdigen Instanz, einer 
+      Zertifizierungsstelle (Certification Authority, CA / Trust Center) 
+      hergestellt. Ein Zertifikat ist im Prinzip ein Datensatz, der mit dem 
+      privaten Schl&amp;#252;ssel der Zertifizierungsstelle digital signiert ist.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Bestandteile (u.A.):&lt;/b&gt; 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Name des Inhabers (ggf. auch Adresse, Telefonummer, etc.), 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - &amp;#246;ffentlicher Schl&amp;#252;ssel des Inhabers, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Seriennummer, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - G&amp;#252;ltigkeitsdauer, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Name der Zertifizierungsstell
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>453</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktioniert eine &lt;b&gt;Zertifikats&amp;#252;berpr&amp;#252;fung&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Ablauf: &lt;/b&gt;Der Sender schickt dem Empf&amp;#228;nger eine Nachricht, die 
+      digitale Signatur und sein Zertifikat. Der Empf&amp;#228;nger pr&amp;#252;ft das 
+      Zertifikat mit dem &amp;#246;ffentlichen Schl&amp;#252;ssel der Zertifizierungsstelle. Mit 
+      dem &amp;#246;ffentlichen Schl&amp;#252;ssel aus dem Zertifikat wird die digitale 
+      Signatur der Nachricht entschl&amp;#252;sselt. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Authetifizierung von Zertifizierungsstellen durch &amp;#252;bergeordnete 
+      Zertifizierungsstellen &amp;#8594; Hierarchisches System.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>454</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein &lt;b&gt;Fingerprint &lt;/b&gt;(bei Zertifikaten)?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Komprimierung des Schl&amp;#252;ssels durch ein Hashverfahren, um einen kurzen, 
+      f&amp;#252;r Menschen lesbaren Wert zu erhalten, anhand dem man den Schl&amp;#252;ssel der 
+      Wurzelzertifizierungsstellen &amp;#252;berpr&amp;#252;fen kann.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>455</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sind &lt;b&gt;Bridge-CA's&lt;/b&gt;? Was sind &lt;b&gt;Cross-Zertifikate&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Bridge CA: &lt;/b&gt;Signiert Zertifikate von CA&amp;#8217;s die nicht dem Standard 
+      des Signaturgesetzes entsprechen, aber gewisse Sicherheitsstandards 
+      erf&amp;#252;llen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Cross-Zertifikate:&lt;/b&gt; Zwei Zertifizierungsstellen signieren ihre 
+      Zertifikate gegenseitig, z.B. damit man auch die Zertifikate 
+      ausl&amp;#228;ndischer CA&amp;#8217;s benutzen kann.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>456</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die 3 &lt;b&gt;Zertifikatsklassen von VeriSign&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Klasse 1:&lt;/b&gt; Elektronische Beantragung m&amp;#246;glich, &amp;#220;berpr&amp;#252;fung 
+      der E-Mail-Adresse.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Klasse 2: &lt;/b&gt;Zus&amp;#228;tzlich Abgleich von Telefonnummer, 
+      Adresse,... mit &amp;#246;ffentlichen Datenbanken, nur USA
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Klasse 3:&lt;/b&gt; Zus&amp;#228;tzlich pers&amp;#246;nliches Erscheinen, 
+      Ausweispr&amp;#252;fung, R&amp;#252;ckfragen. Nur f&amp;#252;r Organisationen, teuer.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>457</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sollte man bei der &lt;b&gt;Verwaltung &amp;#246;ffentlicher Schl&amp;#252;ssel&lt;/b&gt; 
+      beachten?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Schl&amp;#252;ssel haben meist begrenzte Lebensdauer, da es mit gen&amp;#252;gend Zeit und 
+      Rechenleistung m&amp;#246;glich sein k&amp;#246;nnte, privaten Schl&amp;#252;ssel zu knacken -&amp;gt; 
+      regelm&amp;#228;&amp;#223;iges Umschl&amp;#252;sseln erforderlich.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Alte Schl&amp;#252;ssel sollten nicht gel&amp;#246;scht werden, da sie noch 
+      ben&amp;#246;tigt werden, z.B. um alte Signaturen zu pr&amp;#252;fen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>458</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sollte man bei der &lt;b&gt;Verwaltung privater Schl&amp;#252;ssel&lt;/b&gt; 
+      beachten? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Schl&amp;#252;sselhinterlegung :&lt;/b&gt; Staatliche 
+      Ermittlungsstellen wollen gesetzliche Schl&amp;#252;sselhinterlegung. Beispiel:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Clipper-Chips. Bei Firmen ggf. Verschl&amp;#252;sselungsschl&amp;#252;ssel der MA 
+      speichern, damit man bei Austritt aus der Firma Zugriff auf 
+      Kommunikation hat. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Certificate Revocation List&lt;/b&gt;: Liste der bei der 
+      Zertifizierungsstelle gesperrten Schl&amp;#252;ssel. Wird bei der
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Schl&amp;#252;ssel&amp;#252;berpr&amp;#252;fung gecheckt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Sichere Aufbewahrung:&lt;/b&gt; Private Schl&amp;#252;ssel sollten in einer &lt;b&gt;&lt;i&gt;sicheren 
+      Umgebung (Personal Security Environment, PSE) &lt;/i&gt;&lt;/b&gt;gespeichert 
+      werden, z.B. auf einer &lt;b&gt;&lt;i&gt;Chipkarte&lt;/i&gt;&lt;/b&gt;, die mit einer PIN 
+      (Personal Identification Number) gesch&amp;#252;tzt ist. Chipkarten enthalten 
+      einen eigenen Prozessor, Schl&amp;#252;ssel verl&amp;#228;sst dh. die Karte nicht. 
+      Chipkarten dzt. noch wenig verbreitet. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Alternative: Ablegen des privaten Schl&amp;#252;ssels in einer &lt;b&gt;&lt;i&gt;symmetrisch 
+      verschl&amp;#252;sselten Datei&lt;/i&gt;&lt;/b&gt;, Schl&amp;#252;ssel wird bei PGP &lt;b&gt;&lt;i&gt;Passwortsatz 
+      oder Mantra&lt;/i&gt;&lt;/b&gt; genannt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Problem: &lt;/b&gt;In unsicheren Umgebungen k&amp;#246;nnten &lt;b&gt;&lt;i&gt;Keylogger&lt;/i&gt;&lt;/b&gt; 
+      das Passwort mitloggen. Au&amp;#223;erdem liegt Private Key &lt;b&gt;&lt;i&gt;unverschl&amp;#252;sselt 
+      im HSP&lt;/i&gt;&lt;/b&gt; und evtl. durch Paging sogar auf der Festplatte.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>459</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Warum sind Zertifikate noch nicht &amp;#252;berall Standard? Welche 
+      Schwierigkeiten gibt es bei der Verbreitung von Zertifikaten?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Technische Standards&lt;/b&gt;: F&amp;#252;r die g&amp;#228;ngigen Anwendungsf&amp;#228;lle 
+      (Web, Mail, Zutrittskarten) existieren bereits
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Protokolle, diese sind aber zueinander inkompatibel.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      X.509 - Internationaler Standard f&amp;#252;r die Syntax und Semantik von 
+      Zertifikaten. In RFC&amp;#8217;s definiert.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Gesetzliche Anforderungen:&lt;/b&gt; Anforderungen an Zertifikate 
+      und Zertifizierungsstellen sehr hoch, damit
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      der Gesetzgeber von einer qualifizierten elektronischen Signatur 
+      spricht. Daher verwenden viele
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Firmen einfache Zertifikate, die i.d.R. manuell installiert und gepflegt 
+      werden m&amp;#252;ssen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Wirtschaftliche Aspekte&lt;/b&gt;: Aufbau und Betrieb von 
+      Zertifizierungsstellen, Entwicklung und Verbreitung
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      von entsprechender Software und ggf. erforderlicher zus&amp;#228;tzlicher 
+      Hardware ist teuer und ein Henne-Ei-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Problem.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>460</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche &lt;b&gt;Zusatzfunktionen&lt;/b&gt; beinhaltet der &lt;b&gt;neue deutsche 
+      Personalausweis&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -&lt;b&gt; ePass-Anwendung&lt;/b&gt; (digitales Auslesen der biometrischen Daten des 
+      Inhabers), 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - &lt;b&gt;eID / eAuthentisierung&lt;/b&gt; (online nach Freischaltung der Funktion 
+      gegen&amp;#252;ber diversen Diensten authentisieren, anonyme Alters&amp;#252;berpr&amp;#252;fung) 
+      und 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - (optional nach Kauf eines Zertifikats) die &lt;b&gt;Erstellung von 
+      qualifizierten elektronischen Signaturen.&lt;/b&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>461</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die 4 &lt;b&gt;Sicherheitsmechanismen&lt;/b&gt; beim &lt;b&gt;neuen&lt;/b&gt; &lt;b&gt;deutschen 
+      Personalausweis&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Zweistufige PKI: &lt;/b&gt;&lt;i&gt;Country Signing Certification 
+      Authority (CSCA)&lt;/i&gt; signiert die Zertifikate der &lt;i&gt;Document Signer (DS&lt;/i&gt;, 
+      Hersteller der Ausweise)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Basis Access Control (BAC):&lt;/b&gt; Stellt sicher, dass nur 
+      autorisierte Leseger&amp;#228;te die Daten auslesen k&amp;#246;nnen. Aus einigen 
+      Daten der &lt;i&gt;MRZ (Machine Readable Zone) &lt;/i&gt;berechnet das Leseger&amp;#228;t 
+      einen Schl&amp;#252;ssel, mit dem es sich dem Ausweis gegen&amp;#252;ber 
+      authentisiert &amp;#8594; optischer Zugriff. Angriff durch Ausprobieren m&amp;#246;glich. BAC 
+      erlaubt nur auf unkritische Daten Zugriff.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Extended Access Control (EAC):&lt;/b&gt; F&amp;#252;r Zugriff auf 
+      sensitivere Daten. Terminal-Authentisierung: Leseger&amp;#228;t muss sich dem 
+      Chip gegen&amp;#252;ber authentisieren und autorisieren. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ebenfalls zweistufige PKI: &lt;i&gt;Country Verifying Certificate Authority 
+      (CVCA)&lt;/i&gt; signiert Schl&amp;#252;ssel der &lt;i&gt;Document Verifier (DV) &lt;/i&gt;und 
+      tr&amp;#228;gt auchein, auf welche Daten des Chips der DV Zugriff haben darf.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Password Authenticated Connection Establishment (PACE):&lt;/b&gt; 
+      Erweitert den BAC. Eingabe einer am Ausweis aufgedruckten PIN oder vom 
+      User gew&amp;#228;hlten 6-stelligen eID-PIN. Chip erzeugt eine Zufallszahl, 
+      verschl&amp;#252;sselt sie mit der PIN, sendet das Ergebnis ans Leseger&amp;#228;t. Dieses 
+      entschl&amp;#252;sselt die Zufallszahl, beide berechnen daraus einen 
+      Generator f&amp;#252;r die Diffie-Hellman-Gruppe und verwenden ein Elliptic Curve Diffie-Hellman 
+      (ECDH)-Protokoll um sich zu authentisieren und einen symmetrischen 
+      Sitzungsschl&amp;#252;ssel zu berechnen. Authentisierung gegen&amp;#252;ber 
+      entferntem System durch ein authentisiertes Diffie-Hellman-Verfahren mit 
+      &amp;#246;ffentlichen Schl&amp;#252;sseln, anhand des Zertifikats wei&amp;#223; der Chip, welche 
+      Daten die Gegenstelle erhalten darf.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>462</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was bedeutet&lt;b&gt; Identity Based Encryption&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Herleiten des &amp;#246;ffentlichen Schl&amp;#252;ssels eines Benutzers aus bereits &amp;#252;ber 
+      ihn verl&amp;#228;sslich und &amp;#246;ffentlich bekannten Informationen (z.B. 
+      E-Mail-Adresse). 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Damit w&amp;#228;re es m&amp;#246;glich E-Mails zu verschl&amp;#252;sseln und Signaturen zu pr&amp;#252;fen ohne 
+      eine vertrauensw&amp;#252;rdige Instanz zur Authentifizierung der Gegenstelle zu 
+      befragen. RSA dazu nicht geeignet.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2001 wurden Verfahren von Boneh und Franklin sowie von Cocks vorgestellt.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>463</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe den &lt;b&gt;Primzahlsatz&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      phi(n) := # Primzahlen zwischen 1 und n
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>464</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche &lt;b&gt;Primzahlentests &lt;/b&gt;wurden im Skript erw&amp;#228;hnt?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Primfaktorzerlegung: &lt;/b&gt;F&amp;#252;r gro&amp;#223;e Zahlen zu aufw&amp;#228;ndig
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Probabilistische Primzahltests:&lt;/b&gt; Negativtest zuverl&amp;#228;ssig, 
+      Positivtest fast immer zuverl&amp;#228;ssig. Um Fehlerwahrscheinlichkeit zu 
+      minimieren, werden meist mehrere solche Test durchgef&amp;#252;hrt, wobei sich 
+      die Fehlerwahrscheinlichkeit bei unabh&amp;#228;ngigen Tests multipliziert. Basieren 
+      auf Folgerung der Form: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;quot;Wenn x eine Primzahl ist, dann gilt f (x) = y&amp;quot; (keine &amp;#196;quivalenz).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+       -&amp;gt;&lt;b&gt; &lt;/b&gt;z.B. &lt;b&gt;Miller-Rabin-Test&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; AKS-Test:&lt;/b&gt; 2002, deterministischer, effizienter 
+      Primzahlentest in polynomieller Zeit.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>465</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktioniert der &lt;b&gt;Miller-Rabin-Test&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Miller-Rabin-Test&lt;/b&gt;: Testet, ob ungerade Zahl x eine Primzahl ist, 
+      indem Basis a zuf&amp;#228;llig gew&amp;#228;hlt wird, sodass
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2 &amp;#8804; a &amp;#8804; x &amp;#8722; 1 und x &amp;#8722; 1 = d &amp;#183; 2^j zerlegt wird.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Dann gilt: x ist Primzahl &amp;#8658; a^d &amp;#8801; 1 mod x oder 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      a^(d&amp;#183;2^r) &amp;#8801; &amp;#8722;1 mod x, wobei 0 &amp;#8804; r &amp;#8804; j &amp;#8722; 1
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Test schl&amp;#228;gt nur bei &lt;b&gt;starken Pseudoprimzahlen&lt;/b&gt; fehl.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>466</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was sind &lt;b&gt;Monte-Carlo-Verfahren&lt;/b&gt;? Was sind &lt;b&gt;Las-Vegas-Verfahren&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594;&lt;b&gt; Monte-Carlo-Verfahren:&lt;/b&gt; Algorithmen, die Zufallszahlen 
+      benutzen und mit einer gewissen Wahrscheinlichkeit einen Fehler machen, 
+      den man jedoch durch Wiederholung eingrenzen kann (Beispiel: 
+      probabilistische Primzahltests)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8594; &lt;b&gt;Las-Vegas-Verfahren: &lt;/b&gt;Algorithmen, deren 
+      Ressourcenverbrauch (Laufzeit, Speicherplatz) von der Eingabe abh&amp;#228;ngt 
+      (Beispiel: Quicksort).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>467</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 3 Arten der &lt;b&gt;Zufallszahlenerzeugung&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;echte Zufallszahlen&lt;/b&gt;: physikalische Quelle von Zufall
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Pseudo-Zufallszahlen (PZZ)&lt;/b&gt;: Erzeugung von Zahlen aus 
+      einem festen Bereich, ausgehend von einem vorgegebenen Startwert (seed) 
+      mit einem deterministischen Algorithmus (evtl. ebenfalls vom Startwert abh&amp;#228;ngig). 
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&lt;i&gt;Statistische Eigenschaften:&lt;/i&gt;&lt;/b&gt; Erzeugte Zahlen sollen von 
+      zuf&amp;#228;lliger Zahlenfolge nicht unterscheidbar sein
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      und die H&amp;#228;ufigkeit jedes Zahlenwertes soll gleich gro&amp;#223; sein. &lt;b&gt;&lt;i&gt;Test-Suites:&lt;/i&gt;&lt;/b&gt; 
+      Diehard, Test01, TestSuite vom NIST,... zum &amp;#220;berpr&amp;#252;fen der statistischen 
+      Eigenschaften der Generatoren.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226;&lt;b&gt; PZZ f&amp;#252;r kryptografische Anwendungen:&lt;/b&gt; zus&amp;#228;tzlich 
+      Unvorhersagbarkeit der n&amp;#228;chsten Zahl bei Be-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      obachtung einer Zahlenfolge, kein R&amp;#252;ckschluss auf Vorg&amp;#228;ngerzust&amp;#228;nde bei 
+      (teilweise) kompromittiertem
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Zustand.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>468</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein &lt;b&gt;hybrider Zufallszahlen-Generator&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Zum Erzeugen des Seeds werden echte Zufallszahlen verwendet.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>469</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wenn man einen kryptographischen PZZG als endlichen Automaten 
+      betrachtet: wieviele Bits sollte der innere Zustand haben, wenn die 
+      Periodenl&amp;#228;nge 2^n sein soll?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2^(2n) bit
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>470</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche drei Klassen von Zufallszahlengeneratoren f&amp;#252;r kryptografische 
+      Anwendungen gibt es?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1. &lt;b&gt;Basierend auf einem kryptografischen Primitiv&lt;/b&gt;: entweder 
+      Stromchiffren wie A5/1 oder Z&amp;#228;hler, deren Ausgabefunktion auf 
+      symmetrischen Blockverschl&amp;#252;sselungs-Algorithmen oder kryptografischen 
+      Hashfunktionen basiert.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2. &lt;b&gt;Basierend auf einem zahlentheoretischen Problem:&lt;/b&gt; &amp;#196;hnliche 
+      Probleme wie bei Public-Key-Verschl&amp;#252;sselung,
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      z.B. Generatoren nach Blum-Blum-Shub und Blum-Micali
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3. &lt;b&gt;Spezielle Entw&amp;#252;rfe&lt;/b&gt;: z.B. /dev/urandom in UNIX, ANSI 
+      X9.17-Standard (benutzt Triple-DES)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
 </flashcards>

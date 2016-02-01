@@ -1,3 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <medias>
+	<media>
+		<media_id>47</media_id>
+		<card_id>419</card_id>
+		<path_to_media>pic-6-419-a.png</path_to_media>
+		<pictype>a</pictype>
+	</media>
+	<media>
+		<media_id>48</media_id>
+		<card_id>440</card_id>
+		<path_to_media>pic-6-440-a.png</path_to_media>
+		<pictype>a</pictype>
+	</media>
+	<media>
+		<media_id>49</media_id>
+		<card_id>443</card_id>
+		<path_to_media>pic-6-443-a.png</path_to_media>
+		<pictype>a</pictype>
+	</media>
+	<media>
+		<media_id>50</media_id>
+		<card_id>463</card_id>
+		<path_to_media>pic-6-463-a.png</path_to_media>
+		<pictype>a</pictype>
+	</media>
 </medias>
