@@ -1,0 +1,1861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flashcards>
+	<flashcard>
+		<card_id>366</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Warum ist Sicherheit erforderlich?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Private Gesch&amp;#228;ftst&amp;#228;tigkeiten: Online-Shopping, digitale G&amp;#252;ter, 
+      Bankgesch&amp;#228;fte
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Wirtschaftliche Bedeutung: steigende Ums&amp;#228;tze bei Online-Handel
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Steigende Anzahl an Sicherheitsvorf&amp;#228;llen: Script Kiddies, Spam
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &amp;#220;berwachung durch Beh&amp;#246;rden und Geheimdienste: PRISM
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Gesetzliche Verpflichtungen: KonTraG, g&amp;#252;nstigere Zinskonditionen bei 
+      ad&amp;#228;quater Risikovorsorge, Ba-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      sel II, Basel III, Computer im B&amp;#246;rsenhandel
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Pers&amp;#246;nliche Arbeitserleichterung: Vorbeugen von Sicherheitsproblemen
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>367</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist KonTraG?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Gesetz zur Kontrolle und Transparenz im Unternehmensbereich von 1998, 
+      zwingt b&amp;#246;rsennotierte
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Aktiengesellschaften zur Risikovorsorge durch Etablierung eines 
+      Risikomanagement- und Kontrollsystems.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>368</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist Basel II / Basel III?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Basel II: Vorschriften zur Risikobeurteilung von Unternehmen zur 
+      Berechnung der H&amp;#246;he von Eigenkapitalr&amp;#252;cklagen von Banken. St&amp;#228;rkere 
+      Ber&amp;#252;cksichtigung der operationellen Risiken als bei Basel I.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Basel III: Nachfolger von Basel II von 2010, Verbesserungen als Folge 
+      der Finanzkrise 2007
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>369</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was hei&amp;#223;t eigentlich Sicherheit?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Allgemeine Definition: &lt;/b&gt;objektiv das Nichtvorhandensein von 
+      Gefahr, subjektiv die Gewissheit, vor m&amp;#246;glichen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Gefahren gesch&amp;#252;tzt zu sein.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;IT-Sicherheit:&lt;/b&gt; Schutz vor (abstrakten) Bedrohungen bzw. 
+      Verhinderung von potentiellen Sch&amp;#228;den bei An-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      griffszielen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>370</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Angriffsziele gibt es ganz allgemein?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1. Kommunikationswege
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2. Computer
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3. Daten
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>371</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne und erkl&amp;#228;re die im Kurstext erkl&amp;#228;rte Systematik von Bedrohungen!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Nicht-technisch / technisch:&lt;/b&gt; technische Bedrohungen (z.B. 
+      kosmische Strahlung, Bitfehler auf
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#220;bertragungsleitung - Fehlfunktion der Technik selbst) k&amp;#246;nnen durch 
+      technische Ma&amp;#223;nahmen vermieden
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      werden, nichttechnische Bedrohungen (z.B. absichtliche Verf&amp;#228;lschung von 
+      Daten) durch organisatorische
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Ma&amp;#223;nahmen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Absichtlich / unabsichtlich:&lt;/b&gt; unabsichtliche Bedrohungen 
+      sind Bedienungsfehler bzw. Fehler aus Un-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      wissenheit, absichtliche Bedrohungen sind Spionage, DDOS-Angriffe,...
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Aktiv / passiv: &lt;/b&gt;passive Bedrohungen sind alle Formen des 
+      Abh&amp;#246;rens (ohne Eingriff in die Kommunika-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      tion), aktive Bedrohungen z.B. Erzeugen, Unterdr&amp;#252;cken, Verz&amp;#246;gern und 
+      Modifizieren von Nachrichten
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>372</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne die 4 klassischen Bedrohungstypen!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1. Unbefugter Informationsgewinn
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2. Unbefugte Modifikation
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3. Unbefugte Erzeugung
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      4. Unbefugte Unterbrechung
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>373</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was bedeutet &lt;b&gt;unbefugter Informationsgewinn&lt;/b&gt;? Welches Schutzziel 
+      wird angegriffen? Welche Gegenma&amp;#223;nahmen kann man treffen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Unbefugter Informationsgewinn:&lt;/b&gt; Mitlesen der Kommunikation / 
+      unbefugter Zugriff auf Computer bzw. Daten(-tr&amp;#228;ger)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Angriff auf &lt;b&gt;Vertraulichkeit&lt;/b&gt;.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Gegenma&amp;#223;nahmen&lt;/b&gt;: Verschl&amp;#252;sselung, Steganografie, 
+      Zugangskontrolle (Rechenzentre
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>374</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was bedeutet &lt;b&gt;unbefugte Modifikation&lt;/b&gt;? Welches Schutzziel wird 
+      angegriffen? Welche Gegenma&amp;#223;nahmen kann man treffen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Unbefugte Modifikation:&lt;/b&gt; Ab&amp;#228;nderung von Daten bei der &amp;#220;bertragung, 
+      am Computer direkt bzw. durch Bedienungsfehler unge&amp;#252;bter Benutzer.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Angriff auf&lt;b&gt; Integrit&amp;#228;t. &lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Gegenma&amp;#223;nahmen:&lt;/b&gt; Redundanz (Parit&amp;#228;tsbits) &amp;#8594; Nachteile bzgl. 
+      Sicherheit: Angreifer kann Redundanz
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ebenfalls &amp;#228;ndern und nicht alle Modifikationen werden erkannt. Besser: 
+      Verschl&amp;#252;sselung.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>375</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was bedeutet &lt;b&gt;unbefugte Erzeugung&lt;/b&gt;? Welches Schutzziel wird 
+      angegriffen? Welche Gegenma&amp;#223;nahmen kann man treffen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Unbefugte Erzeugung:&lt;/b&gt; Empf&amp;#228;nger erh&amp;#228;lt Nachrichten, die nicht vom 
+      Sender kommen,
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Angriff auf &lt;b&gt;Authentizit&amp;#228;t.&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Gegenma&amp;#223;nahmen&lt;/b&gt;: Signatur, Empfangsbest&amp;#228;tigung.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>376</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was bedeutet &lt;b&gt;unbefugte Unterbrechung&lt;/b&gt;? Welches Schutzziel wird 
+      angegriffen? Welche Gegenma&amp;#223;nahmen kann man treffen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Unbefugte Unterbrechung:&lt;/b&gt; Zerst&amp;#246;rung des Kommmunikationswegs oder 
+      Verursachung eines Compu-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      terabsturzes durch Dritte.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Angriff auf &lt;b&gt;Verf&amp;#252;gbarkeit&lt;/b&gt;.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Gegenma&amp;#223;nahmen: &lt;/b&gt;Redundanz (hochverf&amp;#252;gbare Systeme), 
+      Vermeiden eines single point of failure.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>377</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Schutzziele gibt es in der IT? Beschreibe diese genauer!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Vertraulichkeit (confidentiality)&lt;/b&gt;: Daten sind nur f&amp;#252;r 
+      befugte Personen zug&amp;#228;nglich.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226;&lt;b&gt; Integrit&amp;#228;t (integrity)&lt;/b&gt;: Daten sind korrekt und 
+      unver&amp;#228;ndert.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Authentizit&amp;#228;t (authenticity)&lt;/b&gt;: Daten stammen vom 
+      vorgeblichen Erzeuger.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Verf&amp;#252;gbarkeit (availability)&lt;/b&gt;: Daten k&amp;#246;nnen von 
+      befugten Personen gelesen / bearbeitet werden.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>378</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 5 Arten von pers&amp;#246;nlichen Daten, die elektronisch &amp;#252;bertragen werden!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Finanzdaten&lt;/b&gt;: Bankdaten, Transaktione
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Konsumdaten:&lt;/b&gt; Rabattkartensysteme
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Kommunikationsdaten:&lt;/b&gt; Telefonie, E-Mails, besuchte Seiten, 
+      Diskussionsgruppen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Aufenthaltsdaten:&lt;/b&gt; Ortung mittels Mobiltelefon, 
+      &amp;#220;berwachungskameras, Flugdaten, Metainformationen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      von Fotos, automatische Gesichtserkennung
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;Pers&amp;#246;nliche Informationen&lt;/b&gt;: Informationen aus 
+      sozialen Netzwerken
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>379</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Netztopologien wurden im Kurstext erw&amp;#228;hnt?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1. Sterntopologie
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2. Ringtopologie
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3. Bustopologie
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>380</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die &lt;b&gt;Sterntopologie&lt;/b&gt;! Nenne au&amp;#223;erdem ein praktisches 
+      Anwendungsbeispiel und beschreibe die Auswirkungen auf die Sicherheit.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Sterntopologie:&lt;/b&gt; Alle Computer werden an zentralen Punkt (switch) 
+      angeschlossen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Beispiel: &lt;/b&gt;ATM (Asynchronous Transfer Mode) bei 
+      Telefongesellschaften.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Auswirkungen auf die Sicherheit: &lt;/b&gt;Ausfall eines Computers betrifft 
+      die restliche Kommunikation nicht, au-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#223;er es f&amp;#228;llt der Switch aus (Verf&amp;#252;gbarkeit). kein Mith&amp;#246;ren durch andere 
+      Computer, da Kommunikationsweg
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Sender - Switch - Empf&amp;#228;nger, au&amp;#223;er durch gef&amp;#228;lschte Adressen 
+      (Vertraulichkeit).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>381</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die &lt;b&gt;Ringtopologie&lt;/b&gt;! Nenne au&amp;#223;erdem ein praktisches 
+      Anwendungsbeispiel und beschreibe die Auswirkungen auf die Sicherheit.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Ringtopologie: &lt;/b&gt;Alle Computer sind in geschlossener Schleife 
+      angeordnet.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Beispiel:&lt;/b&gt; Token-Ring von IBM.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Auswirkungen auf die Sicherheit:&lt;/b&gt; Bei Auswahl einer einzigen 
+      Verbindung oder eines Computers ist Kom-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      munikation unterbrochen (Verf&amp;#252;gbarkeit). Jeder Computer kann Nachrichten 
+      mitlesen (Vertraulichkeit)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      oder verf&amp;#228;lschen (Integrit&amp;#228;t) / unterdr&amp;#252;cken.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>382</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die &lt;b&gt;Bustopologie&lt;/b&gt;! Nenne au&amp;#223;erdem ein praktisches 
+      Anwendungsbeispiel und beschreibe die Auswirkungen auf die Sicherheit.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Bustopologie:&lt;/b&gt; Alle Computer sind an das gleiche Kabel 
+      angeschlossen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Beispiel:&lt;/b&gt; Ethernet (10 Mbit/s), Fast-Ethernet (100 Mbit/s), 
+      Gigabit-Ethernet (1 Gbit/s).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Auswirkungen auf die Sicherheit:&lt;/b&gt; Ausfall eines Computers 
+      beeinflusst restliche Kommunikation nicht, l&amp;#228;uft
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      aber ein Computer Amok, behindert das die restliche Kommunikation 
+      (Verf&amp;#252;gbarkeit). Jeder angeschlos-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      sene Computer kann alle Nachrichten mitlesen (Vertraulichkeit).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>383</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne drei Technologien f&amp;#252;r Verbindungsger&amp;#228;te in Netzwerken!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1. Repeater
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2. Bridge
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3. Router
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>384</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Repeater?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Verbindung zweier gleichartiger Netze durch Verst&amp;#228;rkung aller Signale.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>385</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist eine Bridge?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Weiterleitung aller vollst&amp;#228;ndigen und fehlerfreien Datenrahmen, 
+      Weiterleitung nur wenn Ziel-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      computer im anderen Netz liegt (MAC-Tabelle). Ethernet: Switch - 
+      einelementige Subnetze f&amp;#252;r jeden
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Computer, dieser ist &amp;#252;ber Bridges mit anderen Subnetzen verbunden - 
+      Sterntopologie.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>386</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Router?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Dedizierter Computer zur Verbindung von verschiedenartigen 
+      Netzwerkarten, getrennte Schnittstelle f&amp;#252;r jeden Netzwerkanschluss.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>387</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe grob das Internetprokoll und den TCP/IP-Stack!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Internetprotokoll&lt;/b&gt;: Vereinbarung &amp;#252;ber Datenformat, Adressierung, 
+      Verbindungsaufbau,... z.B. TCP/IP. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;TCP/IP-Stack&lt;/b&gt;: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Anwendungsprogramme
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - TCP/UDP-Schicht
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - IP-Schicht 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - ARP-Schicht.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>388</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche 2 Arten von Adressen gibt es im Internet?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      IP-Adressen:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;IPv4-Adressen:&lt;/b&gt; 32 bit mit Pr&amp;#228;fix und Suffix
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;IPv6-Adressen:&lt;/b&gt; 128 bit mit Pr&amp;#228;fix (vom ISP vorgegeben) 
+      und Interface Identifier (kann ggf. vom Ger&amp;#228;t
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      selbst erzeugt werden, mobiles Ger&amp;#228;t damit weltweit identifizierbar). 
+      Privacy extensions: Interface
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Identifier verschieden, sodass Ger&amp;#228;t nicht identifiziert werden kann.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>389</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie werden IP-Adressen vergeben?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      manuell oder per DHCP
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>390</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist DNS-Spoofing / ARP-Spoofing?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;DNS-Spoofing: &lt;/b&gt;R&amp;#252;ckgabe falscher IP-Adressen zu Hostnamen. &lt;i&gt;Ma&amp;#223;nahme:&lt;/i&gt; 
+      DNS Security Extensions (DNSSEC) &amp;#8594; Authentizit&amp;#228;t und Integrit&amp;#228;t von 
+      DNS-Nachrichten durch digitale Signaturen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; &lt;b&gt;ARP Spoofing:&lt;/b&gt; Vort&amp;#228;uschen einer anderen IP-Adresse zu 
+      best. MAC-Adresse. IP-Adresse kann au&amp;#223;erdem selbst konfiguriert 
+      werden.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>391</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist der Internetdienst Finger und auf welchem Port l&amp;#228;uft dieser?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Finger (Port 79): Dient zum Herausfinden, wer an einem entfernten 
+      Computer angemeldet ist. Sollte aus Sicher-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      heitsgr&amp;#252;nden deaktiviert werden.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>392</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 2 Protokolle zum Remote-Zugriff. Welches der beiden sollte 
+      verwendet werden und warum?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Telnet / SSH (Port 23 / 22):&lt;/b&gt; Verbindung zu entferntem Computer 
+      (besser: SSH, da verschl&amp;#252;sselt),
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Telnet zum Testen von Netzprotokollen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>393</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 4 Arten von konkreten Gefahren in der IT!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1. Viren
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2. W&amp;#252;rmer
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3. Trojaner
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      4. Passwortmissbrauch
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>394</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Computervirus? Welche Sch&amp;#228;den k&amp;#246;nnen angerichtet werden? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Prinzip: &lt;/b&gt;Computerprogramme, die sich selbst vervielf&amp;#228;ltigen 
+      k&amp;#246;nnen und (a) Sch&amp;#228;den anrichten (Dateien
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      l&amp;#246;schen / modifizieren), (b) sich tarnen und (c) Benutzer durch seltsame 
+      Ausgaben verschrecken.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Sch&amp;#228;den:&lt;/b&gt; Zeitaufwand zum Entfernen, ggf. nur nervige 
+      Signale, schlimmer: Dateimodifikationen oder Versenden von privaten 
+      Daten, Userkennungen,...
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>395</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche 3 Virentypen gibt es? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      1.) Bootsektorviren
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      2.) Dateiviren
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      3.) Makroviren
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>396</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktionieren &lt;b&gt;Bootsektorviren&lt;/b&gt;? Wie verbreiten sie sich? Wie 
+      k&amp;#246;nnen sie entfernt werden? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Bootsektorviren&lt;/b&gt; werden statt dem Lader aus dem MBR der Festplatte 
+      von infizierten Disketten / CDs
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      gestartet. Folgende Schritte werden ausgef&amp;#252;hrt:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Virus wird in Hauptspeicher geladen und tr&amp;#228;gt sich in den Interrupt 
+      13h (disk read /write ein)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Original-MBR der Festplatte wird an andere freie Stelle kopiert
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Virus kopiert sich in den MBR der Festplatte
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Lader aus dem Original-MBR wird gestartet
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Bei Anschlie&amp;#223;en von USB-Stick bzw. Start von CD wird Virus aktiv, da es 
+      im Interrupt eingetragen ist.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Betriebssystem erkennt Virus nicht da vor Systemstart geladen, 
+      Virenscanner nicht da bei Lesen des MBR
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      das Virus aktiv wird und dh. einfach den Original-MBR zur&amp;#252;ckliefert.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Verbreitung:&lt;/b&gt; Infizierter USB-Stick, CD-ROM,..., bei Systemstart 
+      angesteckt und in Boot-Reihenfolge
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      vor Festplatte.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Entfernung:&lt;/b&gt; mittels Bootdiskette, z.B. mit Knoppix (Linux-Distro) 
+      oder Neuinstallation.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>397</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktionieren &lt;b&gt;Dateiviren&lt;/b&gt;? Wie verbreiten sie sich? Wie k&amp;#246;nnen 
+      sie entfernt werden?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Dateiviren:&lt;/b&gt; Infektion einzelner ausf&amp;#252;hrbarer Dateien (z.B. .exe), 
+      bei Start der infizierten Programme
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      versucht Virus im HSP sesshaft zu werden, also auch nach Beendung des 
+      Wirtsprogramms aktiv zu bleiben,
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      bzw. weitere Programme zu infizieren, indem es z.B. Viruscode am Ende 
+      anh&amp;#228;ngt und am Programmanfang
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      den Aufruf des Viruscodes. Datei wird gr&amp;#246;&amp;#223;er, dh. versucht Virus, seinen 
+      Code statt Sequenz von Nullen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      zu schreiben.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Virus muss Schutz des Betriebssystems &amp;#252;berwinden, l&amp;#228;uft im User-Modus, 
+      dh. keine Schreibrechte auf
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Programme, nutzt aber Admin-Rechte, indem es sich z.B. als Update tarnt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Verbreitung:&lt;/b&gt; Durch Start eines infizierten Programmes via 
+      US-Stick, E-Mail, Web,...
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Entfernung: &lt;/b&gt;PC von virenfreiem Medium starten, Neuinstallation 
+      aller infizierten Programme.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>398</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktionieren &lt;b&gt;Makroviren&lt;/b&gt;? Welche Gegenma&amp;#223;nahmen kann man 
+      treffen?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Makroviren: &lt;/b&gt;Dateiviren, die sich &amp;#252;ber Dokumentdateien verbreiten 
+      und Makrofunktionen nutzen. Ma-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      kros: kleine Skript-Programme in Office etc.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Gegenma&amp;#223;nahmen:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Virenscanner, der Makroviren erkennt und alle Dateien scannt
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Officeversionen ohne Makroausf&amp;#252;hrung
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; PDF wenn Dokument nicht bearbeitet werden muss
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Nur digital signierte Makros aus vertrauensw&amp;#252;rdigen Quellen ausf&amp;#252;hren 
+      lassen.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>399</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Stealth-Virus?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;span http-equiv="content-type" content="text/html; charset=utf-8" style="word-spacing: 1.625px; letter-spacing: normal; text-transform: none; font-variant: normal; display: inline !important; background-color: rgb(255, 255, 255); text-indent: 0px; line-height: 15px; white-space: normal; float: none" align="left"&gt;&lt;font face="Arial, Helvetica, sans-serif" size="13px" color="rgb(51, 51, 51)"&gt;Bei 
+    einem Stealth-Virus handelt es sich um komplexe Schadsoftware, die zuerst 
+    den Computer infiziert und sich dann versteckt. Nachdem sich der Virus 
+    versteckt hat, kopiert er Informationen aus nicht infizierten Dateien in 
+    die Schadsoftware und meldet diese bei einem Scan an die 
+    Antiviren-Software. Dadurch ist dieser Typ von Virus schwer zu erkennen 
+    und zu beseitigen.&lt;/font&gt;&lt;/span&gt;&amp;#0;
+
+&lt;span http-equiv="content-type" content="text/html; charset=utf-8" style="word-spacing: 1.625px; letter-spacing: normal; text-transform: none; font-variant: normal; display: inline !important; background-color: rgb(255, 255, 255); text-indent: 0px; line-height: 15px; white-space: normal; float: none" align="left"&gt;&lt;font face="Arial, Helvetica, sans-serif" size="13px" color="rgb(51, 51, 51)"&gt;Ein 
+    Stealth-Virus kann ein Computersystem auf mehrere Weisen befallen: Wenn 
+    ein Benutzer beispielsweise einen sch&amp;#228;dlichen E-Mail-Anhang herunterl&amp;#228;dt, 
+    von einer Website Schadsoftware installiert, die sich als Programm 
+    verschleiert oder ungepr&amp;#252;fte Software verwendet, die mit Schadsoftware 
+    infiziert ist. &amp;#196;hnlich wie bei anderen Viren kann ein Stealth-Virus viele 
+    verschiedene Systemaufgaben &amp;#252;bernehmen und die Leistung des Computers 
+    beeintr&amp;#228;chtigen. Beim Ausf&amp;#252;hren solcher Aufgaben, erkennen 
+    Antiviren-Programme die Schadsoftware. Ein Stealth-Virus ist aber so 
+    ausgelegt, dass er sich aktiv vor Antiviren-Programmen versteckt. Dies 
+    erreicht er, indem er sich zeitweilig aus der infizierten Datei entfernt, 
+    sich auf ein anderes Laufwerk kopiert und sich durch eine nicht infizierte 
+    Datei ersetzt. Ein Stealth-Virus kann die Erkennung auch vermeiden, indem 
+    er die Gr&amp;#246;&amp;#223;e der von ihm befallenen Datei verschleiert.&lt;/font&gt;&lt;/span&gt;&amp;#0;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>400</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie unterscheiden sich &lt;b&gt;W&amp;#252;rmer&lt;/b&gt; von Viren? Wie verbreiten sich 
+      W&amp;#252;rmer?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;W&amp;#252;rmer&lt;/b&gt; verbreiten sich im Gegensatz zu Viren ohne 
+      Wirtsprogramme, m&amp;#252;ssen dh. mindestens 1mal explizit gestartet
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      werden. Um immer wieder gestartet zu werden, schreiben sich W&amp;#252;rmer z.B. 
+      unter Windows in den Autostart oder modifizieren die Registry.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Verbreitung&lt;/b&gt;: E-Mail, HTTP, Laufwerksfreigaben, Schwachstellen des 
+      BS
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>401</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein &lt;b&gt;Trojanisches Pferd&lt;/b&gt;? Wie verbreiten sie sich? Welche 
+      Gegenma&amp;#223;nahmen kann man treffen? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Trojanisches Pferd:&lt;/b&gt; Ein Programm, das neben seiner eigentlichen 
+      Funktionalit&amp;#228;t noch eine weitere (i.d.R. f&amp;#252;r den Benutzer gef&amp;#228;hrliche) Funktion 
+      ausf&amp;#252;hrt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Verbreitung:&lt;/b&gt; Software im Internet, modulare Programme (z.B. 
+      Multimedia CODECs bzw. Browser-Plugins), Dokumentdateien (bzw. alle 
+      Dateien in propriet&amp;#228;ren Formaten)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Gegenma&amp;#223;nahmen:&lt;/b&gt; Keine Software aus unbekannten Quellen 
+      installieren, Ver&amp;#228;nderungen im System durch Datenbank mit Gr&amp;#246;&amp;#223;e, 
+      &amp;#196;nderungsdatum und Pr&amp;#252;fsumme erkennen, Programme wie Document Inspector 
+      (Office &amp;#8805; 2007) zum Entfernen versteckter Informationen aus 
+      Office-Dokumenten nutzen
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>402</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie kann sich ein Benutzer authentifizieren? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Biometrie (Fingerabdruck, Retinascan,...)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Besitz (Ausweis, Chipkarte,...)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Wissen (Passwort, PIN,..)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>403</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Auf welche 3 Arten k&amp;#246;nnen Passw&amp;#246;rter gecrackt werden? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Raten (pers&amp;#246;nliche Informationen nutzen)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Ausprobieren (Dictionary, Brute-Force)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Aussp&amp;#228;hen / Abh&amp;#246;ren (Physisch vor Ort, &amp;#220;bertragungsweg, Phishing)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>404</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was muss man bei der Speicherung von Passw&amp;#246;rtern als &lt;b&gt;Einweg-Hashes&lt;/b&gt; 
+      bedenken?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Hashfunktionen sind nicht umkehrbar, haben kaum Kollisionen, einen 
+      gro&amp;#223;en Wertebereich und sind nicht zu schnell berechenbar. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Problem:&lt;/b&gt; gleiche Passw&amp;#246;rter haben denselben Hashwert, Angreifer 
+      kann vorab Listen von Passworthashes generieren.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Daher sollte man Passwortdateien wie z.B. /etc/passwd oder /etc/shadow 
+      f&amp;#252;r normale Benutzer unzug&amp;#228;nglich machen. 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>405</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Vorbereitungszeit, welchen Speicherplatzbedarf f&amp;#252;r die 
+      Vorberechnungen und welche Rechenzeit hat das Cracken von Hashes a) mit 
+      Brute Force, b) beim Vorberechnen aller m&amp;#246;glichen Werte und Speichern in 
+      einer Tabelle und c) mit Hellman's time-memory-trade-off bei n bit 
+      langen Hashes? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Brute Force:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Zeitbedarf Vorbereitung: O(1)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Platzbedarf: O (1)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Zeitbedarf: O(2^n)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Komplette Tabelle: &lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Zeitbedarf Vorbereitung: O(2^n)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Platzbedarf: O (2^n)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Zeitbedarf: O(n)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Hellman:&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Zeitbedarf Vorbereitung: O(2^n)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Platzbedarf: O (2^(n/2))
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Zeitbedarf: O(2^(n/2))
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>406</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Erkl&amp;#228;re das Prinzip des time-memory-trade-off von Hellman!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#220;ber einer Menge von Startpassw&amp;#246;rtern wird t-mal die Hashfunktion f 
+      angewendet und der Hash der letzten Iteration gespeichert. Den Klartext 
+      p findet man, indem man dessen Hash h in der Liste der gespeicherten 
+      Hashwerte sucht. Wenn der Hash nicht drin ist, wird f auf h angewendet, so 
+      oft, bis h in der Liste der Hashes auftaucht. Dadurch kennt man die 
+      Zeile, aus deren Startwert h gebildet wurde und muss nur noch x-mal f 
+      auf den Zeilen-Startwert s anwenden (x &amp;lt; t).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Es gilt dann: p = f ^(x&amp;#8722;1) (s) und h = f ^x (s).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>407</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie erweiterte Oechslin das Prinzip von Hellman? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Durch Nutzung einer Reduktionsfunktion R zur Bildung einer Kette: F = R 
+      &amp;#9702; f , diese h&amp;#228;ngt auch von der Position in der Kette ab. Dies vermeidet 
+      Verschmelzungen der Ketten bei Kollisionen sowie generell Kollisionen. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Oechslin zeigte au&amp;#223;erdem, dass nicht alle Ketten gleich lang sein 
+      m&amp;#252;ssen und dass Anzahl der erforderlichen Ketten etwas gr&amp;#246;&amp;#223;er als O(2 
+      n/2 ) ist.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>408</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wozu dient ein &lt;b&gt;Salt&lt;/b&gt;-Wert?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Erschwert den Einsatz von Rainbow-Tables. Zufallswert, der in die 
+      Berechnung der Hashfunktion mit
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      einflie&amp;#223;t. Salt muss zus&amp;#228;tzlich zu Passworthash gespeichert werden. F&amp;#252;r 
+      jeden Salt-Wert braucht man eine eige-
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      ne Rainbow Table.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+</flashcards>
