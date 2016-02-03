@@ -24,4 +24,16 @@
 		<path_to_media>pic-6-463-a.png</path_to_media>
 		<pictype>a</pictype>
 	</media>
+	<media>
+		<media_id>51</media_id>
+		<card_id>477</card_id>
+		<path_to_media>pic-6-477-a.png</path_to_media>
+		<pictype>a</pictype>
+	</media>
+	<media>
+		<media_id>52</media_id>
+		<card_id>481</card_id>
+		<path_to_media>pic-6-481-a.png</path_to_media>
+		<pictype>a</pictype>
+	</media>
 </medias>

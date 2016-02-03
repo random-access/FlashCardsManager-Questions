@@ -4891,4 +4891,1015 @@
 		<custom_width_question>450</custom_width_question>
 		<custom_width_answer>450</custom_width_answer>
 	</flashcard>
+	<flashcard>
+		<card_id>471</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#220;bungsaufgabe 1.1: &lt;/b&gt;Welches sind die vier zu sch&amp;#252;tzenden 
+      Eigenschaften in einem System? Erkl&amp;#228;ren Sie deren Bedeutung mit eigenen 
+      Worten.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Die zu sch&amp;#252;tzenden Eigenschaften in Systemen sind: 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;1.) Vertraulichkeit: &lt;/b&gt;Dieses Schutzziel dient der Sicherung der 
+      Privatsph&amp;#228;re. Es bedeutet, dass der Inhalt bei einer Kommunikation 
+      nur dem Absender und dem beabsichtigten Empf&amp;#228;nger bekannt sein darf. Man 
+      wird hier evtl. sogar fordern,dass auch die Tatsache, dass eine 
+      Kommunikation stattgefunden hat, nur den Beteiligten bekannt werden darf.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;2.) Integrit&amp;#228;t: &lt;/b&gt;Dieses Schutzziel dient der Sicherung des 
+      Vertrauens in den Inhalt der Kommunikation. Absender und Empf&amp;#228;nger 
+      sollen sich sicher sein, dass die Nachricht auf dem Transportweg nicht 
+      ver&amp;#228;ndert wurde.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;3.) Authentizit&amp;#228;t: &lt;/b&gt;Dieses Schutzziel dient der Sicherung des 
+      Vertrauens in die Identit&amp;#228;t der an einer Kommunikation Beteiligten. 
+      Konkret soll sich der Kommunikationspartner sicher sein, dass der andere 
+      Partner tats&amp;#228;chlich derjenige ist, der er vorgibt zu sein.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;4.) Verf&amp;#252;gbarkeit:&lt;/b&gt; Dieses Schutzziel dient der Sicherung des 
+      Vertrauens in die &amp;#8222;Technik&amp;#8220;. Konkret erwartet man, dass die Dienste zur 
+      Verf&amp;#252;gung stehen, wenn man sie benutzen m&amp;#246;chte.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>472</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#220;bungsaufgabe 1.2:&lt;/b&gt; Welche Sicherheitsrisiken k&amp;#246;nnen bei ftp 
+      auftreten?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    Bei ftp treten mindestens die folgenden Sicherheitsrisiken auf:
+&amp;#8226; Die &amp;#220;bertragung des Passwortes kann abgefangen werden, und ein Dritter kann 
+    dann mit diesem Passwort evtl. vertrauliche Daten vom ftp-Server laden.
+&amp;#8226; Der Dritte kann auch Daten, die durch Urheberrecht gesch&amp;#252;tzt sind, auf den 
+    ftp-Server kopieren. Dadurch macht sich der Betreiber des ftp-Servers evtl. 
+    strafbar (Raubkopien).
+&amp;#8226; Der Account und das Passwort k&amp;#246;nnen nicht nur f&amp;#252;r ftp gelten, sondern auch 
+    ganz normale Benutzerkennungen sein. Dann kann sich ein Angreifer per 
+    Telnet auf dem ftp-Server anmelden und dort beliebige Kommandos ausf&amp;#252;hren.
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>473</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche Funktionen bietet &lt;b&gt;PGP&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Funktionen:&lt;/b&gt; 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Dateien verschl&amp;#252;sseln 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - sicheres L&amp;#246;schen (nur PGP) 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - vertrauliche Kommunikation (Sender verschl&amp;#252;sselt mit &amp;#246;ffentlichem 
+      Schl&amp;#252;ssel des Empf&amp;#228;ngers)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - authentische Kommunikation (Sender signiert mit seinem privaten 
+      Schl&amp;#252;ssel)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Erstellen von Schl&amp;#252;sselpaaren
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Schl&amp;#252;sselmanagement (eigene und fremde Schl&amp;#252;ssel).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>474</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktioniert das &lt;b&gt;Ver- und Entschl&amp;#252;sseln bei PGP&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Verschl&amp;#252;sseln: &lt;/b&gt;Hybrides Verschl&amp;#252;sselungsverfahren - 
+      Nachricht wird erst mit ZIP-Algorithmus komprimiert, dann mit einem 
+      symmetrischen session key signiert. Symmetrischer Schl&amp;#252;ssel wird mit dem 
+      asymmetrischen Schl&amp;#252;ssel verschl&amp;#252;sselt und mit der Nachricht 
+      konkateniert versendet. Bei mehreren Empf&amp;#228;ngern muss nur der 
+      session key mit dem &amp;#246;ffentlichen Schl&amp;#252;ssel jedes Empf&amp;#228;ngers 
+      verschl&amp;#252;sselt werden.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Signieren:&lt;/b&gt; Der Hashwert der Nachricht wird mit dem 
+      privaten Schl&amp;#252;ssel des Absenders verschl&amp;#252;sselt. Nachricht und 
+      digitale Signatur werden konkateniert, gezippt und versendet. Will man 
+      die signierte Nachricht verschl&amp;#252;sseln wird das Verschl&amp;#252;sselungsverfahren 
+      (ohne Zippen) noch darauf angewendet.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>475</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was muss man bei der &lt;b&gt;Erstellung von PGP-Schl&amp;#252;sseln&lt;/b&gt; beachten? 
+      Wie funktioniert das &lt;b&gt;Speichern, &amp;#220;berpr&amp;#252;fen und Publizieren von 
+      PGP-Schl&amp;#252;sseln&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;PGP-Schl&amp;#252;ssel generieren: &lt;/b&gt;Schl&amp;#252;sselart: GPG 1.x: nur RSA, 
+      2.x: RSA oder DSS (Diffie Hellman). Schl&amp;#252;ssell&amp;#228;nge: am besten 
+      Maximalwert. Au&amp;#223;erdem sollten Name und E-Mail Adresse angegeben werden.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Speichern des privaten Schl&amp;#252;ssels:&lt;/b&gt; Chipkarte oder 
+      symmetrisch verschl&amp;#252;sselt in Datei (Standardname secring.pgp): Aus 
+      Passwort wird Hash zum Verschl&amp;#252;sseln berechnet, Passworteingabe zum 
+      Entschl&amp;#252;sseln / Signieren erforderlich. Sicherheitskopien anlegen, 
+      Dateiberechtigungen soweit wie m&amp;#246;glich beschr&amp;#228;nken.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Bekanntgeben des &amp;#246;ffentlichen Schl&amp;#252;ssels:&lt;/b&gt; 
+      Schl&amp;#252;sselserver, Homepage, via E-Mail versenden,... &amp;#214;ffentliche Schl&amp;#252;ssel 
+      werden standardm&amp;#228;&amp;#223;ig in Datei pubring.pgp gespeichert. &amp;#214;ffentliche 
+      Schl&amp;#252;ssel k&amp;#246;nnen nicht von Key-servern gel&amp;#246;scht, sondern nur 
+      zur&amp;#252;ckgezogen werden. Die Widerrufsurkunde sollte man aufbewahren.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Pr&amp;#252;fen des &amp;#246;ffentlichen Schl&amp;#252;ssels:&lt;/b&gt; Per Telefon 
+      Fingerabdruck vergleichen oder sich auf einen Vorsteller verlassen 
+      (Person, der man hinreichend vertraut, hat &amp;#246;ffentlichen Schl&amp;#252;ssel mit 
+      eigenem privaten Schl&amp;#252;ssel signiert).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>476</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche 2 &lt;b&gt;Vertrauensarten&lt;/b&gt; gibt es &lt;b&gt;bei PGP&lt;/b&gt;? Welche &lt;b&gt;Vertrauensstufen&lt;/b&gt; 
+      werden eingesetzt?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Vertrauensfragen: &lt;/b&gt;Benutzervertrauen (owner trust; Vertrauen, dass 
+      ein public key zum vorgeblichen Besitzer geh&amp;#246;rt) und Signaturvertrauen 
+      (signature trust; Vetrauen, dass jemand nur korrekte &amp;#246;ffentliche 
+      Schl&amp;#252;ssel signiert).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Vertrauensstufen: 
+&lt;/b&gt;    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      -&lt;b&gt; &lt;/b&gt;Ultimate Trust (nur f&amp;#252;r eigenen Schl&amp;#252;ssel), 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - always trusted to sign other Keys (full trust),
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - usually trusted to sign other Keys (marginal trust), 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - usually not trusted to sign other Keys (never trust),
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - unknown user, 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - unknown trust.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>477</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie wird das &lt;b&gt;Vertrauen bei PGP&lt;/b&gt; berechnet? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      K := minimal n&amp;#246;tige Anzahl Signaturen der Vertrauensstufen always 
+      trusted. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      L := minimal n&amp;#246;tige Anzahl Signaturen der Vertrauensstufe usually 
+      trusted. 
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Normalerweise L &amp;gt; K.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>478</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist der &lt;b&gt;Unterschied zwischen PGP und S/MIME&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      PGP baut auf ein sogenanntes Web of Trust, S/MIME verwendet 
+      X.509-Zertifikate, das Vertrauen in diese Zertifikate basiert auf 
+      Hierarchien von Zertifizierungsstellen .
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>479</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche &lt;b&gt;Schw&amp;#228;chen&lt;/b&gt; hat das &lt;b&gt;SMTP-Protokoll&lt;/b&gt; (RFC 821-822)?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Nur ASCII-Zeichen erlaubt, man kann dh. keine Programme verschicken 
+      und hat Probleme mit Sonderzeichen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; SMTP-Server kann Nachrichten ab einer bestimmten Gr&amp;#246;&amp;#223;e zur&amp;#252;ckweisen
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Umcodierungsprobleme, wenn Computer verschiedene Zeichens&amp;#228;tze verwenden
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8226; Versenden von Anh&amp;#228;ngen nicht definiert
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>480</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie erg&amp;#228;nzt der &lt;b&gt;MIME&lt;/b&gt;-Standard das SMTP-Protokoll?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Zus&amp;#228;tzliche Nachrichtenkopf-Eintr&amp;#228;ge (header fields):&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; Rumpf-Codierung (content transfer encoding): 7bit, 8bit, 
+      quoted-printable, base64
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; Rumpf-Typ (content type): text/plain, text/enriched, image/jpeg, 
+      image/gif, application/postscript, application/octet-stream, 
+      multipart/mixed (mehrere Teile, Trennzeichen durch Attribut boundary definiert)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &amp;#8211; Inhaltsbeschreibung (content description)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>481</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche zus&amp;#228;tzlichen Content-Types sind in S/MIME f&amp;#252;r den Umgang mit 
+      X.509 Zertifikaten definiert?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>482</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche&lt;b&gt; Schutzziele &lt;/b&gt;sollen beim &lt;b&gt;sicheren Surfen im Internet &lt;/b&gt;erreicht 
+      werden?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Vertraulichkeit, Authentizit&amp;#228;t, Anonymit&amp;#228;t
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>483</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie funktioniert ein &lt;b&gt;SSL-Handshake&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;1. Client Hello: &lt;/b&gt;Client sendet Nachricht mit SSL-Version, Liste 
+      von m&amp;#246;glichen Verschl&amp;#252;sselungsalgorithmen, Schl&amp;#252;sselaustauschverfahren 
+      und MAC an Server.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;2. Server Hello: &lt;/b&gt;Server sendet Nachricht mit SSL-Version und 
+      gew&amp;#228;hltem Verschl&amp;#252;sselungsalgorithmus und Schl&amp;#252;sselaustauschverfahren 
+      an Client.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;3. Server-Authentication / Key-Exchange: &lt;/b&gt;Falls Client 
+      Serverauthentifizierung wollte, sendet Server Zertifikat an Client 
+      (&amp;#246;ffentlicher Schl&amp;#252;ssel vom Server), sonst Daten f&amp;#252;r 
+      Diffie-Hellman-Schl&amp;#252;sselaustausch.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;4. Server Hello Done: &lt;/b&gt;Server teilt Client mit dass er alle 
+      Antworten und Authentisierungsnachrichten gesendet hat.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;5. Client-Authentication / Key-Exchange:&lt;/b&gt; Client pr&amp;#252;ft 
+      Serverzertifikat, falls er eines erhalten hat (vorinstalliert im Browser 
+      oder individuell hinzugef&amp;#252;gt). Falls Server Clientauthentifizierung 
+      wollte, sendet Client sein Zertifikat an den Server. Danach sendet 
+      Client Nachricht zum Schl&amp;#252;sselaustausch (Vorab-Schl&amp;#252;ssel = 
+      premaster secret, verschl&amp;#252;sselt mit &amp;#246;ffentl. Schl&amp;#252;ssel vom Server oder 
+      Diffie Hellman Parameter)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;6. Change Cipher Spec: &lt;/b&gt;Client berechnet aus Vorab-Schl&amp;#252;ssel und 
+      weiteren Parameter den geheimen Schl&amp;#252;ssel, sendet Testnachricht an 
+      Server (Finished Message). Server macht dieselbe Berechnung und sendet 
+      Finished Message an Client.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>484</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist &lt;b&gt;Perfect Forward Secrecy&lt;/b&gt;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Bei Premaster Secret kann Angreifer Konversation nachtr&amp;#228;glich 
+      entschl&amp;#252;sseln, falls irgendwann privater Serverschl&amp;#252;ssel bekannt. Besser:
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Perfect Forward Secrecy:&lt;/b&gt; Diffie Hellman (TLS DHE = ephemeral 
+      Diffie-Hellman oder TLS ECDHE = ephemeral Elliptic-Curve 
+      Diffie-Hellman), mit jeweils verschiedenen Exponenten.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>485</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Was ist ein Cookie? Wo werden Cookies gespeichert, am Client oder am 
+      Server?  Wie werden Cookies gesetzt? Wann &amp;#252;bermittelt ein Client ein 
+      Cookie an einen Server?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Cookies: &lt;/b&gt;Geben dem Server die M&amp;#246;glichkeit einen Client 
+      wiederzuerkennen (HTTP ist zustandslos). Key-Value Paar, vom Server 
+      gesetzt, am Client gespeichert und von diesem beim n&amp;#228;chsten Zugriff 
+      &amp;#252;bermittelt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Cookie setzen: &lt;/b&gt;Server sendet zus&amp;#228;tzliche Header-Zeile an Client: Set-Cookie: 
+      NAME=WERT; [expires=DATUM;] [path=PFAD;] [domain=DNSNAME;] [secure]
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Cookie &amp;#252;bermitteln:&lt;/b&gt; Nur wenn sowohl Pfad als auch Domain 
+      &amp;#252;bereinstimmt (Cookie ist f&amp;#252;r Unterordner und Subdomains ebenfalls 
+      g&amp;#252;ltig).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>486</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche &lt;b&gt;Gefahren&lt;/b&gt; haben &lt;b&gt;Cookies&lt;/b&gt;? Wie kann man das &lt;b&gt;Speichern&lt;/b&gt; 
+      &lt;b&gt;von Cookies vermeiden&lt;/b&gt;? 
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Gefahren: &lt;/b&gt;Daten k&amp;#246;nnen gesammelt und f&amp;#252;r zielgruppenorientiertes 
+      Marketing verwendet werden. Authentifizierung &amp;#252;ber Cookies unsicher, da 
+      diese unverschl&amp;#252;sselt gesendet und dh. von Dritten mitgelesen / 
+      modifiziert werden k&amp;#246;nnen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;Cookies vermeiden: &lt;/b&gt;Entweder &amp;#252;ber Browsereinstellungen abstellen 
+      oder Betriebssystem Zugriff verbieten lassen (leere Datei ohne 
+      Schreibrechte oder mit Link nach /dev/null).
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>487</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne die &lt;b&gt;4 Komponenten von SSH&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; SSH Transport Layer Protokoll (SSH-TRANS):&lt;/b&gt; Aushandlung 
+      von Verschl&amp;#252;sselung und Hash-Algorithmen, Serverauthentisierung, 
+      Komprimierung, Verschl&amp;#252;sselung und Intregrit&amp;#228;tssicherung f&amp;#252;r 
+      Datentransport.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; SSH Authentication Protocol (SSH-AUTH):&lt;/b&gt; 
+      Client-Authentisierung, verschiedene Verfahren (Passwort, RSA, externe 
+      Verfahren..)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; SSH Connection Protokoll (SSH-CONN): &lt;/b&gt;Zus&amp;#228;tzliche Tunnel 
+      (virtuelle Kan&amp;#228;le) f&amp;#252;r Daten&amp;#252;bertragung
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; SSH File Transfer Protocol (SSH-SFTP):&lt;/b&gt; Sicheres Kopieren 
+      von Dateien bzw. Zugriff auf entferntes Dateisystem
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>488</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe den Aufbau einer &lt;b&gt;SSH-Verbindung&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;1. Verbindungsaufbau: &lt;/b&gt;Vom Client initiiert. Server sendet 
+      Indentifikationsstring, Aushandeln der Parameter (Verschl&amp;#252;sselungsalgorithmen, 
+      Hashalgorithmen, Schl&amp;#252;sselaustauschverfahren - i.d.R. Diffie Hellman).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;2. Serverauthentisierung: &lt;/b&gt;Beide Seiten berechnen SSH-Session-ID 
+      aus dem Geheimnis g, z.B. H(g). Server signiert H(g) mit privatem 
+      Schl&amp;#252;ssel, Client pr&amp;#252;ft Signatur mit dem &amp;#246;ffentlichen Schl&amp;#252;ssel des 
+      Servers.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;3. Clientauthentisierung:&lt;/b&gt; Passwort (mit Sitzungsschl&amp;#252;ssel 
+      verschl&amp;#252;sselt, Server muss authentisiert sein) oder RSA (Server 
+      schickt challenge an Client, mit dessen &amp;#246;ffentl. Schl&amp;#252;ssel 
+      verschl&amp;#252;sselt; erzeugen mit ssh-keygen). Es gibt mehrere 
+      Sitzungsschl&amp;#252;ssel (f&amp;#252;r jede Richtung einen anderen und Schl&amp;#252;ssel werden 
+      regelm&amp;#228;&amp;#223;ig gewechselt).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;4. Datenaustausch: &lt;/b&gt;Symmetrisch mit Sitzungsschl&amp;#252;ssel 
+      verschl&amp;#252;sselt, Algorithmen: 3DES, DES, Blowfish, IDEA (nur SSH), 
+      RC4 (nur SSH), Cast-128 (nur OpenSSH), Arcfour (nur OpenSSH)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>489</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Welche 3 M&amp;#246;glichkeiten zur Anzeige von entfernten Bildschirminhalten 
+      wurden im Kurstext erw&amp;#228;hnt? Beschreibe sie kurz?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;1.) X11:&lt;/b&gt; X11-Server auf lokalem Rechner erh&amp;#228;lt Signale von 
+      X11-Client auf entferntem Rechner. Umgebungsvariable DISPLAY: sagt dem 
+      Client, welche Ausgabe er verwenden soll. Sollte nur via SSH verwendet 
+      werden da X11 von sich aus unverschl&amp;#252;sselt.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;2.) VNC (Virtual Network Computing): &lt;/b&gt;VNC-Server am entfernten 
+      Rechner, Client am lokalen Rechner. Verwendet das Remote Framebuffer 
+      Protocol. VNC-Serverports: 5900+x (x=Display-Nummer).
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Sichere Verbindung via SSH-Tunnel: ssh -L 1234:127.0.0.1:590x 
+      user@remote; vncviewer 127.0.0.1::1234
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;3.) Remote Desktop:&lt;/b&gt; Protokoll von Microsoft, angewendet im 
+      Programm MS Windows Terminal-Server. Lokale Client(s) k&amp;#246;nnen die 
+      Ausgaben eines Programms am Server anzeigen und Tastatur- und 
+      Mausereignisse von den Clients zum Server &amp;#252;bertragen. Fokus auf einfache 
+      Bedienbarkeit und Performanz.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      rdesktop: Linux-Client
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>490</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Wie sch&amp;#252;tzt man einen privaten PC vor Schadsoftware?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Schutz vor Bootsektorviren:&lt;/b&gt; Reihenfolge der Bootger&amp;#228;te 
+      beachten (Festplatte vor Wechselmedien) oder immer dasselbe Ger&amp;#228;t mit 
+      Schreibschutz angeschlossen lassen, Rettungsmedium erstellen.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;&amp;#8226; Schutz vor Dateiviren / Makroviren / W&amp;#252;rmern:&lt;/b&gt; 
+      Antivirensoftware mit hoher Erkennungsrate, mehreren Betriebsmodi 
+      (Batch-Betrieb und Live-Check), &amp;#220;berwachung von Dateien und 
+      Netzwerkzugriffen und mit automatischen Updates der Virensignaturen 
+      &amp;#252;bers Internet. Makrovirenschutz in Office-Produkten einschalten. Keine 
+      E-Mail Anh&amp;#228;nge mit ausf&amp;#252;hrbaren Dateien &amp;#246;ffnen automatische Ausf&amp;#252;hrung 
+      verhindern.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>491</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nenne 5 Ma&amp;#223;nahmen f&amp;#252;r eine &lt;b&gt;sichere Windows-Konfiguration&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Verwenden von Nicht-Admin-Usern f&amp;#252;r den t&amp;#228;glichen Gebrauch
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Ausblenden von bekannten Dateitypen deaktivieren
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - Zustands&amp;#252;berwachung mit Microsoft Baseline Security Analyzer (MBSA; 
+      informiert &amp;#252;ber Fehlkonfigurationen, die zu Sicherheitsproblemen f&amp;#252;hren)
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      - UAC scharfgeschalten lassen
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
+	<flashcard>
+		<card_id>492</card_id>
+		<proj_id>6</proj_id>
+		<stack>1</stack>
+		<question>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Beschreibe die &lt;b&gt;UAC von Windows&lt;/b&gt;!
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</question>
+		<answer>&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      &lt;b&gt;User Account Control (UAC):&lt;/b&gt; User muss sicherheitskritische 
+      Aktionen best&amp;#228;tigen (alle Aktionen, die Administratorenrechte erfordern) 
+      bzw. sich mit einem Administratorenpasswort authentifizieren wenn er 
+      keine Administratorrechte hat.
+    &lt;/p&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Nachteil: Abstumpfung, wenn sehr oft verwendet; kann von User / ggf. 
+      auch von Schadsoftware abgeschalten werden.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</answer>
+		<custom_width_question>450</custom_width_question>
+		<custom_width_answer>450</custom_width_answer>
+	</flashcard>
 </flashcards>

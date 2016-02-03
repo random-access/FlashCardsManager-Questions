@@ -10,4 +10,14 @@
 		<proj_id>6</proj_id>
 		<label_name>Kurseinheit 2</label_name>
 	</label>
+	<label>
+		<label_id>17</label_id>
+		<proj_id>6</proj_id>
+		<label_name>Kurseinheit 3</label_name>
+	</label>
+	<label>
+		<label_id>16</label_id>
+		<proj_id>6</proj_id>
+		<label_name>Selbsttestaufgaben</label_name>
+	</label>
 </labels>
